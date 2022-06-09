@@ -1,0 +1,6 @@
+C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Definitions.TacticalRPG.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Source\TacticalRPG/Public/Entity.h
+C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Source\TacticalRPG\Public\VitalStat.h
+C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Inc\TacticalRPG\Entity.generated.h

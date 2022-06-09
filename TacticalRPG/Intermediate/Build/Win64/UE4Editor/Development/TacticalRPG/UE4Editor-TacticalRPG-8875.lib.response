@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TacticalRPG-8875.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\TacticalRPGEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\CharacterStats.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Entity.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\HealthSystem.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\VitalStat.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\VitalStats.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\TacticalRPG.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\CharacterStats.gen.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Entity.gen.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\HealthSystem.gen.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\TacticalRPG.init.gen.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Default.rc2.res"
+/OUT:"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\UE4Editor-TacticalRPG-8875.lib"

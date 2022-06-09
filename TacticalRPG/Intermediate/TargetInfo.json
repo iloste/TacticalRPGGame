@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TacticalRPG",
+			"Path": "C:\\Users\\LukeR\\OneDrive\\Documents\\Unreal Projects\\TacticalRPG\\Source\\TacticalRPG.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TacticalRPGEditor",
+			"Path": "C:\\Users\\LukeR\\OneDrive\\Documents\\Unreal Projects\\TacticalRPG\\Source\\TacticalRPGEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

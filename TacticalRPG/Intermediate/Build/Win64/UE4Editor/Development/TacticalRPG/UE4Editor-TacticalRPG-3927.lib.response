@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TacticalRPG-3927.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\TacticalRPGEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\CharacterStats.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\TacticalRPG.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\CharacterStats.gen.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\TacticalRPG.init.gen.cpp.obj"
+"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Default.rc2.res"
+/OUT:"C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\UE4Editor-TacticalRPG-3927.lib"
