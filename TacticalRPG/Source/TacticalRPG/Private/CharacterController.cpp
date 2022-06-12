@@ -4,7 +4,8 @@
 #include "CharacterController.h"
 
 void ACharacterController::attack(ATRPGCharacter* enemy) {
-
+	// to do: include the math for the damage.
+	enemy->GetHealthSystem()->takeDamage(100);
 
 }
 

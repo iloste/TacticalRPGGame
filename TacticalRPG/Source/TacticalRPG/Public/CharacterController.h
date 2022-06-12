@@ -26,3 +26,4 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void ReduceInitiative(UCharacterStats* stats, int reductionAmount);
 };
+

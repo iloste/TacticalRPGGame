@@ -14,18 +14,22 @@ class ATRPGCharacter;
 #endif
 #define TACTICALRPG_GameManager_generated_h
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_SPARSE_DATA
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_RPC_WRAPPERS \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_SPARSE_DATA
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execBindDelegates); \
+	DECLARE_FUNCTION(execRespondToOnDeath); \
 	DECLARE_FUNCTION(execgetNextCharacter);
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execBindDelegates); \
+	DECLARE_FUNCTION(execRespondToOnDeath); \
 	DECLARE_FUNCTION(execgetNextCharacter);
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_INCLASS_NO_PURE_DECLS \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGameManager(); \
 	friend struct Z_Construct_UClass_AGameManager_Statics; \
@@ -34,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(AGameManager)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_INCLASS \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesAGameManager(); \
 	friend struct Z_Construct_UClass_AGameManager_Statics; \
@@ -43,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(AGameManager)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_STANDARD_CONSTRUCTORS \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGameManager(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGameManager) \
@@ -56,7 +60,7 @@ private: \
 public:
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_ENHANCED_CONSTRUCTORS \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGameManager(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -69,32 +73,32 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGameManager)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_PRIVATE_PROPERTY_OFFSET \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_allCharacters() { return STRUCT_OFFSET(AGameManager, m_allCharacters); } \
 	FORCEINLINE static uint32 __PPO__m_turnPointsThreshold() { return STRUCT_OFFSET(AGameManager, m_turnPointsThreshold); }
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_16_PROLOG
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_GENERATED_BODY_LEGACY \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_17_PROLOG
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_PRIVATE_PROPERTY_OFFSET \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_SPARSE_DATA \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_RPC_WRAPPERS \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_INCLASS \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_STANDARD_CONSTRUCTORS \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_PRIVATE_PROPERTY_OFFSET \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_SPARSE_DATA \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_RPC_WRAPPERS \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_INCLASS \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_GENERATED_BODY \
+#define TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_PRIVATE_PROPERTY_OFFSET \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_SPARSE_DATA \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_INCLASS_NO_PURE_DECLS \
-	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_19_ENHANCED_CONSTRUCTORS \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_PRIVATE_PROPERTY_OFFSET \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_SPARSE_DATA \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_INCLASS_NO_PURE_DECLS \
+	TacticalRPG_Source_TacticalRPG_Public_GameManager_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

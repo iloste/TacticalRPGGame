@@ -6,6 +6,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "TRPGCharacter.h"
 #include "CharacterStats.h"
+#include "HealthSystem.h"
 #include "GameManager.generated.h"
 
 
@@ -35,4 +36,12 @@ protected:
 	// figures out who gets a go, if anybody, on the next tick
 	void initiativeTick();
 
+	UFUNCTION()
+	void RespondToOnDeath();
+
+	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable)
+	void BindDelegates();
 };
+

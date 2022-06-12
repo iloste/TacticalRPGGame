@@ -3,10 +3,3 @@
 
 #include "VitalStats.h"
 
-VitalStats::VitalStats()
-{
-}
-
-VitalStats::~VitalStats()
-{
-}

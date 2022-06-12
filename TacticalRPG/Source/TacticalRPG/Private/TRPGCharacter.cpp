@@ -16,7 +16,9 @@ void ATRPGCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	m_stats = FindComponentByClass<UCharacterStats>();
-	m_healthSystem = FindComponentByClass < UHealthSystem>();
+	m_healthSystem = FindComponentByClass<UHealthSystem>();
+
+	// to do: make this use FindComponent too and then check everything works fine.
 	m_abilities = NewObject<UAbilities>();
 }
 

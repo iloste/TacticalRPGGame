@@ -47,7 +47,7 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 
 
 		// To do: remove this or have it able to turn on off? May not matter as it should only run in engine. But you'll want it off if debugging other things.
-		if (GEngine) 
+		/*if (GEngine) 
 		{
 			for (size_t i = 0; i < m_allCharacters.Num(); i++)
 			{
@@ -64,7 +64,7 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 				const TCHAR* ff = *details;
 				UE_LOG(LogTemp, Warning, TEXT("%s"), *details);
 			}
-		}
+		}*/
 
 		// To do: continue working on the turn order. You need to know have it so if you just attack instead of move (or skip turn), you'll get a turn soon than the opponenet.
 	}
@@ -73,4 +73,25 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 	ATRPGCharacter* nextCharacter = m_charactersWithTurn[0];
 	m_charactersWithTurn.RemoveAt(0);
 	return nextCharacter;
+}
+
+void AGameManager::RespondToOnDeath() {
+	UE_LOG(LogTemp, Warning, TEXT("OnDeath"));
+
+}
+
+void AGameManager::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+void AGameManager::BindDelegates()
+{
+	for (size_t i = 0; i < m_allCharacters.Num(); i++)
+	{
+		ATRPGCharacter* character = m_allCharacters[i];
+		UHealthSystem* hs = character->GetHealthSystem();
+		hs->m_onDeath.AddDynamic(this, &AGameManager::RespondToOnDeath);
+	}
+
 }

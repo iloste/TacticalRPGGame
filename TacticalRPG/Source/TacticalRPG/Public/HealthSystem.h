@@ -3,9 +3,11 @@
 #pragma once
 #include "VitalStat.h"
 #include "CoreMinimal.h"
+#include "Delegates/Delegate.h"
 #include "Components/ActorComponent.h"
 #include "HealthSystem.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnDeath);
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class TACTICALRPG_API UHealthSystem : public UActorComponent
@@ -16,6 +18,9 @@ public:
 	// Sets default values for this component's properties
 	UHealthSystem();
 
+	UPROPERTY(BlueprintAssignable)
+		FOnDeath m_onDeath {};
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -23,20 +28,17 @@ protected:
 	VitalStat m_stamina;
 	VitalStat m_mana;
 
+	void CheckIfDead();
+	
+
 public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	UFUNCTION(BlueprintCallable)
 		int getCurrentHeatlh() { return m_health.getCurrent(); }
 	UFUNCTION(BlueprintCallable)
-		void takeDamage(int damage) { m_health.decreaseBy(damage); }
+		void takeDamage(int damage);
 
-	
 
 };
 
-enum class VitalStats {
-	Health,
-	Stamina,
-	Mana,
-};

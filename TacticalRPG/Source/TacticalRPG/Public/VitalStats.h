@@ -2,20 +2,13 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
-#include "VitalStat.h"
 /**
  * 
  */
 
-class TACTICALRPG_API VitalStats
+enum class VitalStats
 {
-public:
-	VitalStats();
-	~VitalStats();
-private:
-	VitalStat m_health;
-	VitalStat m_stamina;
-	VitalStat m_mana;
-
+	Health,
+	Stamina,
+	Mana
 };

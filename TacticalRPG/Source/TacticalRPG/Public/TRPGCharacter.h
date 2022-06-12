@@ -32,7 +32,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	UCharacterStats* getStats() { return m_stats; }
-
+	UHealthSystem* GetHealthSystem() { return m_healthSystem; }
 
 	
 	UAbilities* m_abilities;

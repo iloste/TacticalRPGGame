@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TacticalRPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BEBC5C7E-32F9-42CE-AF70-EA2F15F39C7F}</UniqueIdentifier>
+      <UniqueIdentifier>{EF559D64-4ED7-4901-9295-D1651E31909E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacticalRPG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{09196D71-6656-411F-9C6D-E495CC56F1C9}</UniqueIdentifier>
+      <UniqueIdentifier>{5AF1E5DA-22BD-464E-BEB5-15AF107922A3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TacticalRPG">
-      <UniqueIdentifier>{EF9E98AB-7B28-4106-B4BF-FADCD0149CE5}</UniqueIdentifier>
+      <UniqueIdentifier>{B7D9C1A8-57AE-4629-95E1-3A2A076F97AE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacticalRPG\TacticalRPG.Build.cs">
       <Filter>Source\TacticalRPG</Filter>
@@ -42,7 +42,7 @@
       <Filter>Source\TacticalRPG</Filter>
     </ClInclude>
     <Filter Include="Source\TacticalRPG\Private">
-      <UniqueIdentifier>{DD0AF295-31EE-4CBE-89CA-CF7E4AC4B467}</UniqueIdentifier>
+      <UniqueIdentifier>{A09EDDB9-93AE-4EFE-B1A6-B167A138BA33}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\Abilities.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
@@ -87,7 +87,7 @@
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TacticalRPG\Public">
-      <UniqueIdentifier>{F5E3C1D4-DCDA-4421-8CE4-67B6C9FE667B}</UniqueIdentifier>
+      <UniqueIdentifier>{4FF70FC1-00C3-48F6-976F-FE492FE1091C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\Abilities.h">
       <Filter>Source\TacticalRPG\Public</Filter>

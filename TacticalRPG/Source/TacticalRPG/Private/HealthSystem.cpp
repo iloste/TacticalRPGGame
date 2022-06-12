@@ -25,11 +25,26 @@ void UHealthSystem::BeginPlay()
 }
 
 
+void UHealthSystem::CheckIfDead()
+{
+	if (m_health.getCurrent() <= 0)
+	{
+		m_onDeath.Broadcast();
+		// dead
+	}
+}
+
 // Called every frame
 void UHealthSystem::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+void UHealthSystem::takeDamage(int damage)
+{
+	m_health.decreaseBy(damage);
+	CheckIfDead();
 }
 

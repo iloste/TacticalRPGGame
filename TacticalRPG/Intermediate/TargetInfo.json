@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TacticalRPG",
-			"Path": "C:\\Users\\LukeR\\OneDrive\\Documents\\Unreal Projects\\TacticalRPG\\Source\\TacticalRPG.Target.cs",
+			"Path": "C:\\Users\\LukeR\\OneDrive\\Documents\\GitHub\\TacticalRPGGame\\TacticalRPG\\Source\\TacticalRPG.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TacticalRPGEditor",
-			"Path": "C:\\Users\\LukeR\\OneDrive\\Documents\\Unreal Projects\\TacticalRPG\\Source\\TacticalRPGEditor.Target.cs",
+			"Path": "C:\\Users\\LukeR\\OneDrive\\Documents\\GitHub\\TacticalRPGGame\\TacticalRPG\\Source\\TacticalRPGEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

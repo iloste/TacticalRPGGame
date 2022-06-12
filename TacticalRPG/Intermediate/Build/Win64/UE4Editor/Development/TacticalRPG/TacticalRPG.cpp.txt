@@ -1,2 +1,2 @@
-C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Definitions.TacticalRPG.h
-C:\Users\LukeR\OneDrive\Documents\Unreal Projects\TacticalRPG\Source\TacticalRPG\TacticalRPG.h
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Definitions.TacticalRPG.h
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\TacticalRPG.h
