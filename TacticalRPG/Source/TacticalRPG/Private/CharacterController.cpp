@@ -5,7 +5,7 @@
 
 void ACharacterController::attack(ATRPGCharacter* enemy) {
 	// to do: include the math for the damage.
-	enemy->GetHealthSystem()->takeDamage(5);
+	enemy->GetHealthSystem()->takeDamage(25);
 
 	// debug to print health of enemy and current char
 	if (GEngine)

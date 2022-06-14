@@ -47,12 +47,12 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 
 
 		// To do: remove this or have it able to turn on off? May not matter as it should only run in engine. But you'll want it off if debugging other things.
-		/*if (GEngine) 
+		if (GEngine) 
 		{
 			for (size_t i = 0; i < m_allCharacters.Num(); i++)
 			{
-				FString details = "Character: ";
-				details.AppendInt(i);
+				FString details = "Character ID: ";
+				details.AppendInt(m_allCharacters[i]->ID());
 				details += (" | initiative: ");
 				details.AppendInt(m_allCharacters[i]->getStats()->getInitiative());
 				details += (" | reserve: ");
@@ -64,7 +64,7 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 				const TCHAR* ff = *details;
 				UE_LOG(LogTemp, Warning, TEXT("%s"), *details);
 			}
-		}*/
+		}
 
 		// To do: continue working on the turn order. You need to know have it so if you just attack instead of move (or skip turn), you'll get a turn soon than the opponenet.
 	}
@@ -83,8 +83,8 @@ void AGameManager::RespondToOnDeath(UHealthSystem* hs) {
 		if (m_allCharacters[i]->GetHealthSystem() == hs)
 		{
 			m_deadCharacters.Add(m_allCharacters[i]);
-			m_allCharacters.Remove(m_allCharacters[i]);
-			//m_deadCharacters[0]->Destroy();
+			m_allCharacters.RemoveAt(i);
+			m_deadCharacters[0]->Destroy();
 			return;
 		}
 	}
