@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_TacticalRPG();
 	TACTICALRPG_API UClass* Z_Construct_UClass_ATRPGCharacter_NoRegister();
+	TACTICALRPG_API UClass* Z_Construct_UClass_UHealthSystem_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AGameManager::execBindDelegates)
 	{
@@ -28,9 +29,10 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	}
 	DEFINE_FUNCTION(AGameManager::execRespondToOnDeath)
 	{
+		P_GET_OBJECT(UHealthSystem,Z_Param_hs);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->RespondToOnDeath();
+		P_THIS->RespondToOnDeath(Z_Param_hs);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AGameManager::execgetNextCharacter)
@@ -106,17 +108,35 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	}
 	struct Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics
 	{
+		struct GameManager_eventRespondToOnDeath_Parms
+		{
+			UHealthSystem* hs;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hs_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_hs;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::NewProp_hs_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::NewProp_hs = { "hs", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventRespondToOnDeath_Parms, hs), Z_Construct_UClass_UHealthSystem_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::NewProp_hs_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::NewProp_hs_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::NewProp_hs,
+	};
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/GameManager.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGameManager, nullptr, "RespondToOnDeath", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGameManager, nullptr, "RespondToOnDeath", nullptr, nullptr, sizeof(GameManager_eventRespondToOnDeath_Parms), Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_RespondToOnDeath_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AGameManager_RespondToOnDeath()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -161,7 +181,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGameManager_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AGameManager_BindDelegates, "BindDelegates" }, // 1881090153
 		{ &Z_Construct_UFunction_AGameManager_getNextCharacter, "getNextCharacter" }, // 3108263485
-		{ &Z_Construct_UFunction_AGameManager_RespondToOnDeath, "RespondToOnDeath" }, // 1258999615
+		{ &Z_Construct_UFunction_AGameManager_RespondToOnDeath, "RespondToOnDeath" }, // 1810596120
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameManager_Statics::Class_MetaDataParams[] = {
@@ -227,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGameManager, 1077542888);
+	IMPLEMENT_CLASS(AGameManager, 369678309);
 	template<> TACTICALRPG_API UClass* StaticClass<AGameManager>()
 	{
 		return AGameManager::StaticClass();

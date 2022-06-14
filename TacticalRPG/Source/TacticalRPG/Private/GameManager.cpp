@@ -75,8 +75,20 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 	return nextCharacter;
 }
 
-void AGameManager::RespondToOnDeath() {
+void AGameManager::RespondToOnDeath(UHealthSystem* hs) {
 	UE_LOG(LogTemp, Warning, TEXT("OnDeath"));
+
+	for (size_t i = 0; i < m_allCharacters.Num(); i++)
+	{
+		if (m_allCharacters[i]->GetHealthSystem() == hs)
+		{
+			m_deadCharacters.Add(m_allCharacters[i]);
+			m_allCharacters.Remove(m_allCharacters[i]);
+			//m_deadCharacters[0]->Destroy();
+			return;
+		}
+	}
+
 
 }
 

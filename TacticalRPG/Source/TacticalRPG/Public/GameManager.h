@@ -28,6 +28,7 @@ public:
 protected:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	TArray<ATRPGCharacter*> m_allCharacters;
+	TArray<ATRPGCharacter*> m_deadCharacters;
 	TArray<ATRPGCharacter*> m_charactersWithTurn;
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
@@ -37,7 +38,7 @@ protected:
 	void initiativeTick();
 
 	UFUNCTION()
-	void RespondToOnDeath();
+	void RespondToOnDeath(UHealthSystem* hs);
 
 	virtual void BeginPlay() override;
 

@@ -11,10 +11,13 @@ ATRPGCharacter::ATRPGCharacter()
 
 }
 
+int ATRPGCharacter::m_nextID = 0;
+
 // Called when the game starts or when spawned
 void ATRPGCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	m_ID = ATRPGCharacter::m_nextID++;
 	m_stats = FindComponentByClass<UCharacterStats>();
 	m_healthSystem = FindComponentByClass<UHealthSystem>();
 

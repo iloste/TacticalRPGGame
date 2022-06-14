@@ -4,38 +4,40 @@
   Parsing headers for TacticalRPGEditor
     Running UnrealHeaderTool "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\TacticalRPG.uproject" "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\TacticalRPGEditor\DebugGame\TacticalRPGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\LukeR\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for TacticalRPGEditor in 12.1707062 seconds
+  Reflection code generated for TacticalRPGEditor in 8.8445175 seconds
   Building TacticalRPGEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 29 actions with 12 processes...
     [1/29] Default.rc2
     [2/29] SharedPCH.Engine.NonOptimized.ShadowErrors.cpp
-    [3/29] GameManager.gen.cpp
-C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/GameManager.h(40): error C2011: 'VitalStats': 'class' type redefinition
-    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\VitalStats.h(11): note: see declaration of 'VitalStats'
-    [4/29] StatusEffect.cpp
-    [5/29] HealthSystem.cpp
-    [6/29] TacticalRPG.cpp
-    [7/29] VitalStats.cpp
-    [8/29] StatBuff.cpp
-    [9/29] Stat.cpp
-    [10/29] Abilities.cpp
-    [11/29] Ability.cpp
-    [12/29] HealthSystem.gen.cpp
-    [13/29] Abilities.gen.cpp
-    [14/29] TRPGCharacter.cpp
-    [15/29] DamageEffect.cpp
-    [16/29] VitalStat.cpp
-    [17/29] GameManager.cpp
-C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\GameManager.h(40): error C2011: 'VitalStats': 'class' type redefinition
-    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\VitalStats.h(11): note: see declaration of 'VitalStats'
-    [18/29] Entity.gen.cpp
-    [19/29] CharacterStats.gen.cpp
-    [20/29] Ability.gen.cpp
-    [21/29] Entity.cpp
-    [22/29] TRPGCharacter.gen.cpp
-    [23/29] CharacterStats.cpp
-    [24/29] TacticalRPG.init.gen.cpp
-    [25/29] CharacterController.gen.cpp
-    [26/29] CharacterController.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(50,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat" TacticalRPGEditor Win64 DebugGame -Project="C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\TacticalRPG.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+    [3/29] TacticalRPG.cpp
+    [4/29] VitalStats.cpp
+    [5/29] TacticalRPG.init.gen.cpp
+    [6/29] CharacterStats.cpp
+    [7/29] Stat.cpp
+    [8/29] StatusEffect.cpp
+    [9/29] HealthSystem.cpp
+    [10/29] HealthSystem.gen.cpp
+    [11/29] TRPGCharacter.gen.cpp
+    [12/29] CharacterController.gen.cpp
+    [13/29] GameManager.cpp
+    [14/29] GameManager.gen.cpp
+    [15/29] VitalStat.cpp
+    [16/29] Entity.cpp
+    [17/29] DamageEffect.cpp
+    [18/29] StatBuff.cpp
+    [19/29] Ability.cpp
+    [20/29] Abilities.cpp
+    [21/29] Entity.gen.cpp
+    [22/29] CharacterController.cpp
+    [23/29] CharacterStats.gen.cpp
+    [24/29] Ability.gen.cpp
+    [25/29] TRPGCharacter.cpp
+    [26/29] Abilities.gen.cpp
+    [27/29] UE4Editor-TacticalRPG-Win64-DebugGame.lib
+       Creating library C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.lib and object C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.exp
+    [28/29] UE4Editor-TacticalRPG-Win64-DebugGame.dll
+       Creating library C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.suppressed.lib and object C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.suppressed.exp
+    [29/29] TacticalRPGEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 101.20 seconds
+  Total execution time: 121.75 seconds

@@ -8,15 +8,22 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UHealthSystem;
 #ifdef TACTICALRPG_HealthSystem_generated_h
 #error "HealthSystem.generated.h already included, missing '#pragma once' in HealthSystem.h"
 #endif
 #define TACTICALRPG_HealthSystem_generated_h
 
 #define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_10_DELEGATE \
-static inline void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath) \
+struct _Script_TacticalRPG_eventOnDeath_Parms \
 { \
-	OnDeath.ProcessMulticastDelegate<UObject>(NULL); \
+	UHealthSystem* hs; \
+}; \
+static inline void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath, UHealthSystem* hs) \
+{ \
+	_Script_TacticalRPG_eventOnDeath_Parms Parms; \
+	Parms.hs=hs; \
+	OnDeath.ProcessMulticastDelegate<UObject>(&Parms); \
 }
 
 

@@ -24,6 +24,8 @@ protected:
 	virtual void BeginPlay() override;
 	UCharacterStats* m_stats;
 	UHealthSystem* m_healthSystem;
+	static int m_nextID;
+	int m_ID{};
 
 public:	
 	// Called every frame
@@ -36,4 +38,6 @@ public:
 
 	
 	UAbilities* m_abilities;
+
+	int ID() { return m_ID;} 
 };

@@ -29,7 +29,7 @@ void UHealthSystem::CheckIfDead()
 {
 	if (m_health.getCurrent() <= 0)
 	{
-		m_onDeath.Broadcast();
+		m_onDeath.Broadcast(this);
 		// dead
 	}
 }
