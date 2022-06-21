@@ -25,7 +25,7 @@ void UCharacterStats::BeginPlay()
 	m_initiativeCounter = new VitalStat(2000);
 	m_initiativeCounter->decreaseBy(2000);
 
-	m_speed = new Stat(rand() % 100 + 1);
+	m_speed = new Stat(rand() % 30 + 100);
 	// ...
 
 }

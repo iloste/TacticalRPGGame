@@ -37,6 +37,20 @@ public:
 	UFUNCTION(BlueprintCallable)
 		int getCurrentHeatlh() { return m_health.getCurrent(); }
 	UFUNCTION(BlueprintCallable)
+		float GetCurrentHeatlhAsPercentage() { return m_health.GetCurrentAsPercentage(); }
+	
+	UFUNCTION(BlueprintCallable)
+		int GetCurrentStamina() { return m_stamina.getCurrent(); }
+	UFUNCTION(BlueprintCallable)
+		float GetCurrentStaminaAsPercentage() { return m_stamina.GetCurrentAsPercentage(); }
+	
+	UFUNCTION(BlueprintCallable)
+		int GetCurrentMana() { return m_mana.getCurrent(); }
+	UFUNCTION(BlueprintCallable)
+		float GetCurrentManaAsPercentage() { return m_mana.GetCurrentAsPercentage(); }
+	
+	
+	UFUNCTION(BlueprintCallable)
 		void takeDamage(int damage);
 
 

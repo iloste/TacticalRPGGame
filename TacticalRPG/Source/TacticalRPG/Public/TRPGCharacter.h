@@ -26,18 +26,24 @@ protected:
 	UHealthSystem* m_healthSystem;
 	static int m_nextID;
 	int m_ID{};
+	FString m_name;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	UCharacterStats* getStats() { return m_stats; }
-	UHealthSystem* GetHealthSystem() { return m_healthSystem; }
+	UFUNCTION(BlueprintCallable)
+		UCharacterStats* getStats() { return m_stats; }
+	UFUNCTION(BlueprintCallable)
+		UHealthSystem* GetHealthSystem() { return m_healthSystem; }
 
-	
+
 	UAbilities* m_abilities;
+	UFUNCTION(BlueprintCallable)
+		int ID() { return m_ID; }
 
-	int ID() { return m_ID;} 
+	UFUNCTION(BlueprintCallable)
+		FString GetName();
 };

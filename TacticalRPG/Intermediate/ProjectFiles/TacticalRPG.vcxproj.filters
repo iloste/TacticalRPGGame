@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TacticalRPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EF559D64-4ED7-4901-9295-D1651E31909E}</UniqueIdentifier>
+      <UniqueIdentifier>{CA31AA4F-FF31-4FAF-A6B2-CA9F9195652B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacticalRPG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5AF1E5DA-22BD-464E-BEB5-15AF107922A3}</UniqueIdentifier>
+      <UniqueIdentifier>{E1315315-4C13-4608-A9C5-EA0DA8F31E68}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TacticalRPG">
-      <UniqueIdentifier>{B7D9C1A8-57AE-4629-95E1-3A2A076F97AE}</UniqueIdentifier>
+      <UniqueIdentifier>{F43E0A3A-6546-45AF-A629-12F74A506654}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacticalRPG\TacticalRPG.Build.cs">
       <Filter>Source\TacticalRPG</Filter>
@@ -42,7 +42,7 @@
       <Filter>Source\TacticalRPG</Filter>
     </ClInclude>
     <Filter Include="Source\TacticalRPG\Private">
-      <UniqueIdentifier>{A09EDDB9-93AE-4EFE-B1A6-B167A138BA33}</UniqueIdentifier>
+      <UniqueIdentifier>{CAC359BC-4D75-4F34-96B7-4F9365251C78}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\Abilities.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
@@ -68,6 +68,9 @@
     <ClCompile Include="..\..\Source\TacticalRPG\Private\HealthSystem.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\InGameDataBase.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\Stat.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
@@ -87,7 +90,7 @@
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TacticalRPG\Public">
-      <UniqueIdentifier>{4FF70FC1-00C3-48F6-976F-FE492FE1091C}</UniqueIdentifier>
+      <UniqueIdentifier>{EABD0F9C-82C0-4471-A25D-8463677B3F76}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\Abilities.h">
       <Filter>Source\TacticalRPG\Public</Filter>
@@ -111,6 +114,9 @@
       <Filter>Source\TacticalRPG\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\HealthSystem.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\InGameDataBase.h">
       <Filter>Source\TacticalRPG\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\Stat.h">

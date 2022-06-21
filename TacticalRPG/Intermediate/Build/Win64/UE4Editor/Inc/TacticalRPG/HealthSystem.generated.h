@@ -31,12 +31,22 @@ static inline void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDe
 #define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(exectakeDamage); \
+	DECLARE_FUNCTION(execGetCurrentManaAsPercentage); \
+	DECLARE_FUNCTION(execGetCurrentMana); \
+	DECLARE_FUNCTION(execGetCurrentStaminaAsPercentage); \
+	DECLARE_FUNCTION(execGetCurrentStamina); \
+	DECLARE_FUNCTION(execGetCurrentHeatlhAsPercentage); \
 	DECLARE_FUNCTION(execgetCurrentHeatlh);
 
 
 #define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(exectakeDamage); \
+	DECLARE_FUNCTION(execGetCurrentManaAsPercentage); \
+	DECLARE_FUNCTION(execGetCurrentMana); \
+	DECLARE_FUNCTION(execGetCurrentStaminaAsPercentage); \
+	DECLARE_FUNCTION(execGetCurrentStamina); \
+	DECLARE_FUNCTION(execGetCurrentHeatlhAsPercentage); \
 	DECLARE_FUNCTION(execgetCurrentHeatlh);
 
 

@@ -18,6 +18,10 @@ public:
 	void decreaseBy(int decreaseValue);
 	void increaseBy(int decreaseValue);
 
+	/// <summary>
+	/// Returns a value between 0-1
+	/// </summary>
+	float GetCurrentAsPercentage();
 private:
 	int m_maxValue;
 	int m_currentValue;

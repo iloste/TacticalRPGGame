@@ -8,7 +8,7 @@ void ACharacterController::attack(ATRPGCharacter* enemy) {
 	enemy->GetHealthSystem()->takeDamage(25);
 
 	// debug to print health of enemy and current char
-	if (GEngine)
+	/*if (GEngine)
 	{
 			FString details = "Character: ";
 			details.AppendInt(m_controlledCharacter->ID());
@@ -26,7 +26,7 @@ void ACharacterController::attack(ATRPGCharacter* enemy) {
 			ff = *details;
 			UE_LOG(LogTemp, Warning, TEXT("%s"), *details);
 
-	}
+	}*/
 
 
 }

@@ -21,6 +21,15 @@ void ATRPGCharacter::BeginPlay()
 	m_stats = FindComponentByClass<UCharacterStats>();
 	m_healthSystem = FindComponentByClass<UHealthSystem>();
 
+	// to do: set name properly
+	if (m_ID == 1)
+	{
+		m_name = "Gina";
+	}
+	else {
+		m_name = "Luke";
+	}
+
 	// to do: make this use FindComponent too and then check everything works fine.
 	m_abilities = NewObject<UAbilities>();
 }
@@ -39,3 +48,8 @@ void ATRPGCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 }
 
+FString ATRPGCharacter::GetName()
+{
+	return m_name;
+
+}

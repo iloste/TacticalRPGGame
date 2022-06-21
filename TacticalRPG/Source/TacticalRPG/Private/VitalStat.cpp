@@ -40,3 +40,7 @@ void VitalStat::increaseBy(int decreaseValue) {
 		m_currentValue = m_maxValue;
 	}
 }
+
+float VitalStat::GetCurrentAsPercentage() {
+	return (float)m_currentValue / (float)m_maxValue;
+}

@@ -8,14 +8,30 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UHealthSystem;
+class UCharacterStats;
 #ifdef TACTICALRPG_TRPGCharacter_generated_h
 #error "TRPGCharacter.generated.h already included, missing '#pragma once' in TRPGCharacter.h"
 #endif
 #define TACTICALRPG_TRPGCharacter_generated_h
 
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_SPARSE_DATA
-#define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_RPC_WRAPPERS
-#define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetName); \
+	DECLARE_FUNCTION(execID); \
+	DECLARE_FUNCTION(execGetHealthSystem); \
+	DECLARE_FUNCTION(execgetStats);
+
+
+#define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetName); \
+	DECLARE_FUNCTION(execID); \
+	DECLARE_FUNCTION(execGetHealthSystem); \
+	DECLARE_FUNCTION(execgetStats);
+
+
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATRPGCharacter(); \

@@ -45,6 +45,12 @@ void UHealthSystem::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 void UHealthSystem::takeDamage(int damage)
 {
 	m_health.decreaseBy(damage);
+
+	// testing purposes
+	m_mana.decreaseBy(damage);
+	m_stamina.decreaseBy(damage);
+	// testing purposes
+	
 	CheckIfDead();
 }
 
