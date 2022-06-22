@@ -8,6 +8,8 @@
 #include "HealthSystem.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDeath, UHealthSystem*, hs);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FVitalStatUpdate);
+
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class TACTICALRPG_API UHealthSystem : public UActorComponent
@@ -20,6 +22,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 		FOnDeath m_onDeath;
+	
+	UPROPERTY(BlueprintAssignable)
+		FVitalStatUpdate m_vitalStatUpdate;
 
 protected:
 	// Called when the game starts

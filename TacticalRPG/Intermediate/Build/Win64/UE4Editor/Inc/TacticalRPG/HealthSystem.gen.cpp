@@ -13,12 +13,35 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 // Cross Module References
-	TACTICALRPG_API UFunction* Z_Construct_UDelegateFunction_TacticalRPG_OnDeath__DelegateSignature();
+	TACTICALRPG_API UFunction* Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_TacticalRPG();
+	TACTICALRPG_API UFunction* Z_Construct_UDelegateFunction_TacticalRPG_OnDeath__DelegateSignature();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UHealthSystem_NoRegister();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UHealthSystem();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TacticalRPG, nullptr, "VitalStatUpdate__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UDelegateFunction_TacticalRPG_OnDeath__DelegateSignature_Statics
 	{
 		struct _Script_TacticalRPG_eventOnDeath_Parms
@@ -500,6 +523,10 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_onDeath_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_m_onDeath;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_vitalStatUpdate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_m_vitalStatUpdate;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -534,8 +561,15 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	};
 #endif
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_onDeath = { "m_onDeath", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHealthSystem, m_onDeath), Z_Construct_UDelegateFunction_TacticalRPG_OnDeath__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_onDeath_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_onDeath_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_vitalStatUpdate_MetaData[] = {
+		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_vitalStatUpdate = { "m_vitalStatUpdate", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHealthSystem, m_vitalStatUpdate), Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_vitalStatUpdate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_vitalStatUpdate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UHealthSystem_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_onDeath,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHealthSystem_Statics::NewProp_m_vitalStatUpdate,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UHealthSystem_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UHealthSystem>::IsAbstract,
@@ -564,7 +598,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHealthSystem, 1964839617);
+	IMPLEMENT_CLASS(UHealthSystem, 655213658);
 	template<> TACTICALRPG_API UClass* StaticClass<UHealthSystem>()
 	{
 		return UHealthSystem::StaticClass();

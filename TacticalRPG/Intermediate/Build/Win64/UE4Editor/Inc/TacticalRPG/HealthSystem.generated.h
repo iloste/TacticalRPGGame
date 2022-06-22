@@ -14,6 +14,13 @@ class UHealthSystem;
 #endif
 #define TACTICALRPG_HealthSystem_generated_h
 
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_11_DELEGATE \
+static inline void FVitalStatUpdate_DelegateWrapper(const FMulticastScriptDelegate& VitalStatUpdate) \
+{ \
+	VitalStatUpdate.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
 #define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_10_DELEGATE \
 struct _Script_TacticalRPG_eventOnDeath_Parms \
 { \
@@ -27,8 +34,8 @@ static inline void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDe
 }
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_SPARSE_DATA
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_RPC_WRAPPERS \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_SPARSE_DATA
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(exectakeDamage); \
 	DECLARE_FUNCTION(execGetCurrentManaAsString); \
@@ -42,7 +49,7 @@ static inline void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDe
 	DECLARE_FUNCTION(execgetCurrentHeatlh);
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(exectakeDamage); \
 	DECLARE_FUNCTION(execGetCurrentManaAsString); \
@@ -56,7 +63,7 @@ static inline void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDe
 	DECLARE_FUNCTION(execgetCurrentHeatlh);
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_INCLASS_NO_PURE_DECLS \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthSystem(); \
 	friend struct Z_Construct_UClass_UHealthSystem_Statics; \
@@ -65,7 +72,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthSystem)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_INCLASS \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUHealthSystem(); \
 	friend struct Z_Construct_UClass_UHealthSystem_Statics; \
@@ -74,7 +81,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthSystem)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_STANDARD_CONSTRUCTORS \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHealthSystem(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHealthSystem) \
@@ -87,7 +94,7 @@ private: \
 public:
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_ENHANCED_CONSTRUCTORS \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UHealthSystem(UHealthSystem&&); \
@@ -98,28 +105,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHealthSystem)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_PRIVATE_PROPERTY_OFFSET
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_12_PROLOG
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_GENERATED_BODY_LEGACY \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_PRIVATE_PROPERTY_OFFSET
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_14_PROLOG
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_PRIVATE_PROPERTY_OFFSET \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_SPARSE_DATA \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_RPC_WRAPPERS \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_INCLASS \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_STANDARD_CONSTRUCTORS \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_PRIVATE_PROPERTY_OFFSET \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_SPARSE_DATA \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_RPC_WRAPPERS \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_INCLASS \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_GENERATED_BODY \
+#define TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_PRIVATE_PROPERTY_OFFSET \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_SPARSE_DATA \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_INCLASS_NO_PURE_DECLS \
-	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_15_ENHANCED_CONSTRUCTORS \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_PRIVATE_PROPERTY_OFFSET \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_SPARSE_DATA \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_INCLASS_NO_PURE_DECLS \
+	TacticalRPG_Source_TacticalRPG_Public_HealthSystem_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

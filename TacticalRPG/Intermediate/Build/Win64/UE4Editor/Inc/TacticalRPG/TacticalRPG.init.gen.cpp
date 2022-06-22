@@ -12,6 +12,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeTacticalRPG_init() {}
 	TACTICALRPG_API UFunction* Z_Construct_UDelegateFunction_TacticalRPG_OnDeath__DelegateSignature();
+	TACTICALRPG_API UFunction* Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature();
 	TACTICALRPG_API UFunction* Z_Construct_UDelegateFunction_TacticalRPG_UpdatedCurrentCharacter__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_TacticalRPG()
 	{
@@ -20,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTacticalRPG_init() {}
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_TacticalRPG_OnDeath__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_TacticalRPG_VitalStatUpdate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_TacticalRPG_UpdatedCurrentCharacter__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
@@ -27,8 +29,8 @@ void EmptyLinkFunctionForGeneratedCodeTacticalRPG_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x53685EE1,
-				0x7DA9EB68,
+				0x3D6255E7,
+				0x5C7DF32E,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

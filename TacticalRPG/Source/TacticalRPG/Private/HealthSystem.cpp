@@ -51,6 +51,8 @@ void UHealthSystem::takeDamage(int damage)
 	m_stamina.decreaseBy(damage);
 	// testing purposes
 	
+	m_vitalStatUpdate.Broadcast();
+
 	CheckIfDead();
 }
 
