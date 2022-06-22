@@ -44,3 +44,12 @@ void VitalStat::increaseBy(int decreaseValue) {
 float VitalStat::GetCurrentAsPercentage() {
 	return (float)m_currentValue / (float)m_maxValue;
 }
+
+
+FString VitalStat::GetCurrentAsString() {
+	FString healthStr = "";
+	healthStr.AppendInt(m_currentValue);
+	healthStr += "/";
+	healthStr.AppendInt(m_maxValue);
+	return healthStr;
+}

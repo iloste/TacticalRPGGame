@@ -67,6 +67,13 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		P_THIS->takeDamage(Z_Param_damage);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UHealthSystem::execGetCurrentManaAsString)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FString*)Z_Param__Result=P_THIS->GetCurrentManaAsString();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UHealthSystem::execGetCurrentManaAsPercentage)
 	{
 		P_FINISH;
@@ -81,6 +88,13 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		*(int32*)Z_Param__Result=P_THIS->GetCurrentMana();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UHealthSystem::execGetCurrentStaminaAsString)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FString*)Z_Param__Result=P_THIS->GetCurrentStaminaAsString();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UHealthSystem::execGetCurrentStaminaAsPercentage)
 	{
 		P_FINISH;
@@ -93,6 +107,13 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		*(int32*)Z_Param__Result=P_THIS->GetCurrentStamina();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UHealthSystem::execGetCurrentHealthAsString)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FString*)Z_Param__Result=P_THIS->GetCurrentHealthAsString();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UHealthSystem::execGetCurrentHeatlhAsPercentage)
@@ -113,15 +134,52 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	{
 		UClass* Class = UHealthSystem::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetCurrentHealthAsString", &UHealthSystem::execGetCurrentHealthAsString },
 			{ "getCurrentHeatlh", &UHealthSystem::execgetCurrentHeatlh },
 			{ "GetCurrentHeatlhAsPercentage", &UHealthSystem::execGetCurrentHeatlhAsPercentage },
 			{ "GetCurrentMana", &UHealthSystem::execGetCurrentMana },
 			{ "GetCurrentManaAsPercentage", &UHealthSystem::execGetCurrentManaAsPercentage },
+			{ "GetCurrentManaAsString", &UHealthSystem::execGetCurrentManaAsString },
 			{ "GetCurrentStamina", &UHealthSystem::execGetCurrentStamina },
 			{ "GetCurrentStaminaAsPercentage", &UHealthSystem::execGetCurrentStaminaAsPercentage },
+			{ "GetCurrentStaminaAsString", &UHealthSystem::execGetCurrentStaminaAsString },
 			{ "takeDamage", &UHealthSystem::exectakeDamage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics
+	{
+		struct HealthSystem_eventGetCurrentHealthAsString_Parms
+		{
+			FString ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthSystem_eventGetCurrentHealthAsString_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/// <summary>\n/// Returns the health as a string in the format 1000/1000\n/// </summary>\n" },
+		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "<summary>\nReturns the health as a string in the format 1000/1000\n</summary>" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentHealthAsString", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentHealthAsString_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh_Statics
 	{
@@ -142,7 +200,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// Heatlh\n" },
 		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "Heatlh" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "getCurrentHeatlh", nullptr, nullptr, sizeof(HealthSystem_eventgetCurrentHeatlh_Parms), Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh_Statics::Function_MetaDataParams)) };
@@ -174,7 +234,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/// <summary>\n/// Returns the health as a value between 0-1\n/// </summary>\n" },
 		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "<summary>\nReturns the health as a value between 0-1\n</summary>" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentHeatlhAsPercentage", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentHeatlhAsPercentage_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage_Statics::Function_MetaDataParams)) };
@@ -206,7 +268,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentMana_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// mana\n" },
 		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "mana" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentMana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentMana", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentMana_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentMana_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentMana_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentMana_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentMana_Statics::Function_MetaDataParams)) };
@@ -238,7 +302,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/// <summary>\n/// Returns the mana as a value between 0-1\n/// </summary>\n" },
 		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "<summary>\nReturns the mana as a value between 0-1\n</summary>" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentManaAsPercentage", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentManaAsPercentage_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage_Statics::Function_MetaDataParams)) };
@@ -248,6 +314,40 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics
+	{
+		struct HealthSystem_eventGetCurrentManaAsString_Parms
+		{
+			FString ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthSystem_eventGetCurrentManaAsString_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/// <summary>\n/// Returns the mana as a string in the format 1000/1000\n/// </summary>\n" },
+		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "<summary>\nReturns the mana as a string in the format 1000/1000\n</summary>" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentManaAsString", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentManaAsString_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -270,7 +370,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentStamina_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// Stamina\n" },
 		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "Stamina" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentStamina_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentStamina", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentStamina_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentStamina_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentStamina_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentStamina_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentStamina_Statics::Function_MetaDataParams)) };
@@ -302,7 +404,9 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/// <summary>\n/// Returns the stamina as a value between 0-1\n/// </summary>\n" },
 		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "<summary>\nReturns the stamina as a value between 0-1\n</summary>" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentStaminaAsPercentage", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentStaminaAsPercentage_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage_Statics::Function_MetaDataParams)) };
@@ -312,6 +416,40 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics
+	{
+		struct HealthSystem_eventGetCurrentStaminaAsString_Parms
+		{
+			FString ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthSystem_eventGetCurrentStaminaAsString_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/// <summary>\n/// Returns the stamina as a string in the format 1000/1000\n/// </summary>\n" },
+		{ "ModuleRelativePath", "Public/HealthSystem.h" },
+		{ "ToolTip", "<summary>\nReturns the stamina as a string in the format 1000/1000\n</summary>" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthSystem, nullptr, "GetCurrentStaminaAsString", nullptr, nullptr, sizeof(HealthSystem_eventGetCurrentStaminaAsString_Parms), Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -371,12 +509,15 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TacticalRPG,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UHealthSystem_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh, "getCurrentHeatlh" }, // 2658795096
-		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage, "GetCurrentHeatlhAsPercentage" }, // 1776435939
-		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentMana, "GetCurrentMana" }, // 1555506004
-		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage, "GetCurrentManaAsPercentage" }, // 659342945
-		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentStamina, "GetCurrentStamina" }, // 3441158734
-		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage, "GetCurrentStaminaAsPercentage" }, // 578503686
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentHealthAsString, "GetCurrentHealthAsString" }, // 955688904
+		{ &Z_Construct_UFunction_UHealthSystem_getCurrentHeatlh, "getCurrentHeatlh" }, // 188275825
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentHeatlhAsPercentage, "GetCurrentHeatlhAsPercentage" }, // 537127984
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentMana, "GetCurrentMana" }, // 2392927419
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsPercentage, "GetCurrentManaAsPercentage" }, // 3923900278
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentManaAsString, "GetCurrentManaAsString" }, // 2161418498
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentStamina, "GetCurrentStamina" }, // 1786610343
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsPercentage, "GetCurrentStaminaAsPercentage" }, // 3350790435
+		{ &Z_Construct_UFunction_UHealthSystem_GetCurrentStaminaAsString, "GetCurrentStaminaAsString" }, // 2851990590
 		{ &Z_Construct_UFunction_UHealthSystem_takeDamage, "takeDamage" }, // 3930486583
 	};
 #if WITH_METADATA
@@ -423,7 +564,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthSystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHealthSystem, 1628453697);
+	IMPLEMENT_CLASS(UHealthSystem, 1964839617);
 	template<> TACTICALRPG_API UClass* StaticClass<UHealthSystem>()
 	{
 		return UHealthSystem::StaticClass();
