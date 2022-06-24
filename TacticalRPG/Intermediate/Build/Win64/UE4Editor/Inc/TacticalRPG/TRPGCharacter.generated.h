@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UTexture;
 class UHealthSystem;
 class UCharacterStats;
 #ifdef TACTICALRPG_TRPGCharacter_generated_h
@@ -18,6 +19,7 @@ class UCharacterStats;
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_SPARSE_DATA
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetProfileImage); \
 	DECLARE_FUNCTION(execGetName); \
 	DECLARE_FUNCTION(execID); \
 	DECLARE_FUNCTION(execGetHealthSystem); \
@@ -26,6 +28,7 @@ class UCharacterStats;
 
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetProfileImage); \
 	DECLARE_FUNCTION(execGetName); \
 	DECLARE_FUNCTION(execID); \
 	DECLARE_FUNCTION(execGetHealthSystem); \
@@ -75,7 +78,8 @@ public: \
 
 
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__m_name() { return STRUCT_OFFSET(ATRPGCharacter, m_name); }
+	FORCEINLINE static uint32 __PPO__m_name() { return STRUCT_OFFSET(ATRPGCharacter, m_name); } \
+	FORCEINLINE static uint32 __PPO__m_profileImage() { return STRUCT_OFFSET(ATRPGCharacter, m_profileImage); }
 
 
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_13_PROLOG

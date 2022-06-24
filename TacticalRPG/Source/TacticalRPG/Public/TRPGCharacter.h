@@ -29,6 +29,8 @@ protected:
 
 	UPROPERTY( EditAnywhere)
 		FString m_name;
+	UPROPERTY(EditAnywhere)
+		UTexture* m_profileImage;
 
 public:
 	// Called every frame
@@ -48,4 +50,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		FString GetName();
+	UFUNCTION(BlueprintCallable)
+		UTexture* GetProfileImage() { return m_profileImage; }
 };
+
