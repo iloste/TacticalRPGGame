@@ -1,44 +1,29 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame).
-  Creating makefile for TacticalRPGEditor (no existing makefile)
-  Parsing headers for TacticalRPGEditor
-    Running UnrealHeaderTool "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\TacticalRPG.uproject" "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\TacticalRPGEditor\DebugGame\TacticalRPGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\LukeR\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for TacticalRPGEditor in 4.5073877 seconds
+  Invalidating makefile for TacticalRPGEditor (source file added)
   Building TacticalRPGEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 31 actions with 12 processes...
-    [1/31] Default.rc2
-    [2/31] SharedPCH.Engine.NonOptimized.ShadowErrors.cpp
-    [3/31] HealthSystem.cpp
-    [4/31] TacticalRPG.cpp
-    [5/31] StatBuff.cpp
-    [6/31] Ability.cpp
-    [7/31] CharacterStats.cpp
-    [8/31] DamageEffect.cpp
-    [9/31] Entity.cpp
-    [10/31] VitalStat.cpp
-    [11/31] Entity.gen.cpp
-    [12/31] Abilities.gen.cpp
-    [13/31] TacticalRPG.init.gen.cpp
-    [14/31] InGameDataBase.gen.cpp
-    [15/31] StatusEffect.cpp
-    [16/31] GameManager.gen.cpp
-    [17/31] VitalStats.cpp
-    [18/31] TRPGCharacter.gen.cpp
-    [19/31] Abilities.cpp
-    [20/31] CharacterController.cpp
-    [21/31] HealthSystem.gen.cpp
-    [22/31] CharacterController.gen.cpp
-    [23/31] CharacterStats.gen.cpp
-    [24/31] Stat.cpp
-    [25/31] TRPGCharacter.cpp
-    [26/31] GameManager.cpp
-    [27/31] InGameDataBase.cpp
-    [28/31] Ability.gen.cpp
-    [29/31] UE4Editor-TacticalRPG-Win64-DebugGame.lib
+  Building 20 actions with 12 processes...
+    [1/20] VitalStat.cpp
+    [2/20] TacticalRPG.init.gen.cpp
+    [3/20] CharacterStats.cpp
+    [4/20] HealthSystem.cpp
+    [5/20] TRPGCharacter.cpp
+    [6/20] HealthSystem.gen.cpp
+    [7/20] InGameDataBase.cpp
+    [8/20] TurnOrderCalculator.cpp
+    [9/20] Entity.cpp
+    [10/20] CharacterStats.gen.cpp
+    [11/20] TRPGCharacter.gen.cpp
+    [12/20] InGameDataBase.gen.cpp
+    [13/20] GameManager.gen.cpp
+    [14/20] Entity.gen.cpp
+    [15/20] CharacterController.cpp
+    [16/20] GameManager.cpp
+    [17/20] CharacterController.gen.cpp
+    [18/20] UE4Editor-TacticalRPG-Win64-DebugGame.lib
        Creating library C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.lib and object C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.exp
-    [30/31] UE4Editor-TacticalRPG-Win64-DebugGame.dll
+    [19/20] UE4Editor-TacticalRPG-Win64-DebugGame.dll
        Creating library C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.suppressed.lib and object C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\DebugGame\TacticalRPG\UE4Editor-TacticalRPG-Win64-DebugGame.suppressed.exp
-    [31/31] TacticalRPGEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 37.87 seconds
-  Total execution time: 50.44 seconds
+    [20/20] TacticalRPGEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 21.11 seconds
+  Total execution time: 24.39 seconds

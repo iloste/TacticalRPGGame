@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeCharacterStats() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_testSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_m_testSpeed;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeCharacterStats() {}
 		{ "ModuleRelativePath", "Public/CharacterStats.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCharacterStats_Statics::NewProp_m_testSpeed_MetaData[] = {
+		{ "Category", "CharacterStats" },
+		{ "ModuleRelativePath", "Public/CharacterStats.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UCharacterStats_Statics::NewProp_m_testSpeed = { "m_testSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterStats, m_testSpeed), METADATA_PARAMS(Z_Construct_UClass_UCharacterStats_Statics::NewProp_m_testSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterStats_Statics::NewProp_m_testSpeed_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCharacterStats_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterStats_Statics::NewProp_m_testSpeed,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCharacterStats_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCharacterStats>::IsAbstract,
 	};
@@ -55,11 +70,11 @@ void EmptyLinkFunctionForGeneratedCodeCharacterStats() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UCharacterStats_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterStats_Statics::PropPointers),
 		0,
 		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UCharacterStats_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterStats_Statics::Class_MetaDataParams))
@@ -73,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterStats() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCharacterStats, 3328241109);
+	IMPLEMENT_CLASS(UCharacterStats, 1449498493);
 	template<> TACTICALRPG_API UClass* StaticClass<UCharacterStats>()
 	{
 		return UCharacterStats::StaticClass();

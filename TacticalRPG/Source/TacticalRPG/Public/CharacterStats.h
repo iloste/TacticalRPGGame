@@ -18,6 +18,9 @@ public:
 	// Sets default values for this component's properties
 	UCharacterStats();
 
+	UPROPERTY(EditAnywhere)
+		int m_testSpeed;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

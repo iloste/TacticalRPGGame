@@ -32,6 +32,8 @@ void UCharacterStats::BeginPlay()
 	m_predictedInitiativeCounter->decreaseBy(2000);
 
 	m_speed = new Stat(rand() % 30 + 100);
+	//m_speed = new Stat(rand() % 100);
+
 	// ...
 
 }

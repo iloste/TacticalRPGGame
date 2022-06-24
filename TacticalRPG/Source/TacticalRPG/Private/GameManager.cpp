@@ -69,25 +69,34 @@ void AGameManager::PredictiveInitiativeTick() {
 			}
 
 			m_currentTurnOrder.Add(m_allCharacters[x]);
+			// assumes the player will take a full turn
+			m_allCharacters[x]->getStats()->DecreasePredictedInitiative(1000);
+
 		}
 	}
 }
 
+
 void AGameManager::PredictTurnOrder() {
 	int counter = 0;
-	while (m_currentTurnOrder.Num() < 5)
+	while (m_currentTurnOrder.Num() < 6)
 	{
 		PredictiveInitiativeTick();
 		counter++;
 	}
-
-	AActor::FindComponentByClass<UInGameDataBase>()->SetCurrentTurnOrder(m_currentTurnOrder);
 
 }
 
 
 ATRPGCharacter* AGameManager::getNextCharacter() {
 	int counter = 0;
+
+	// reset predictive stats so that the calculation can resume from the current situation
+	for (size_t i = 0; i < m_allCharacters.Num(); i++)
+	{
+		m_allCharacters[i]->getStats()->ResetPredictedValues();
+	}
+
 	while (m_charactersWithTurn.Num() == 0)
 	{
 		initiativeTick();
@@ -95,7 +104,7 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 
 
 		// To do: remove this or have it able to turn on off? May not matter as it should only run in engine. But you'll want it off if debugging other things.
-		/*if (GEngine) 
+		/*if (GEngine)
 		{
 			for (size_t i = 0; i < m_allCharacters.Num(); i++)
 			{
@@ -121,9 +130,15 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 	ATRPGCharacter* nextCharacter = m_charactersWithTurn[0];
 	m_charactersWithTurn.RemoveAt(0);
 
-	//testing to see if this works:
+	// empty the list an recalculate predicted turn order each turn
+	m_currentTurnOrder.Empty();
 	PredictTurnOrder();
-	//
+	// removes the current character
+	m_currentTurnOrder.RemoveAt(0);
+	AActor::FindComponentByClass<UInGameDataBase>()->SetCurrentTurnOrder(m_currentTurnOrder);
+
+
+
 
 	return nextCharacter;
 }
