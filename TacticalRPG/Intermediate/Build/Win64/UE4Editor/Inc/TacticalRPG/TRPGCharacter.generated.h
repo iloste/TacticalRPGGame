@@ -74,7 +74,10 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATRPGCharacter)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_PRIVATE_PROPERTY_OFFSET
+#define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_name() { return STRUCT_OFFSET(ATRPGCharacter, m_name); }
+
+
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_13_PROLOG
 #define TacticalRPG_Source_TacticalRPG_Public_TRPGCharacter_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

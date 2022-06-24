@@ -214,6 +214,11 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_name_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_m_name;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -234,6 +239,16 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 		{ "ModuleRelativePath", "Public/TRPGCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATRPGCharacter_Statics::NewProp_m_name_MetaData[] = {
+		{ "Category", "TRPGCharacter" },
+		{ "ModuleRelativePath", "Public/TRPGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_ATRPGCharacter_Statics::NewProp_m_name = { "m_name", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATRPGCharacter, m_name), METADATA_PARAMS(Z_Construct_UClass_ATRPGCharacter_Statics::NewProp_m_name_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATRPGCharacter_Statics::NewProp_m_name_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATRPGCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATRPGCharacter_Statics::NewProp_m_name,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATRPGCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATRPGCharacter>::IsAbstract,
 	};
@@ -243,11 +258,11 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_ATRPGCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATRPGCharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ATRPGCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATRPGCharacter_Statics::Class_MetaDataParams))
@@ -261,7 +276,7 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATRPGCharacter, 1633292132);
+	IMPLEMENT_CLASS(ATRPGCharacter, 1986267744);
 	template<> TACTICALRPG_API UClass* StaticClass<ATRPGCharacter>()
 	{
 		return ATRPGCharacter::StaticClass();

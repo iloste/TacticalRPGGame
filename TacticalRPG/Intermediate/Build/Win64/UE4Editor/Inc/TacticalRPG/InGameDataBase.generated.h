@@ -14,6 +14,13 @@ class ATRPGCharacter;
 #endif
 #define TACTICALRPG_InGameDataBase_generated_h
 
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_11_DELEGATE \
+static inline void FUpdatedCurrentTurnOrder_DelegateWrapper(const FMulticastScriptDelegate& UpdatedCurrentTurnOrder) \
+{ \
+	UpdatedCurrentTurnOrder.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
 #define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_10_DELEGATE \
 static inline void FUpdatedCurrentCharacter_DelegateWrapper(const FMulticastScriptDelegate& UpdatedCurrentCharacter) \
 { \
@@ -21,20 +28,22 @@ static inline void FUpdatedCurrentCharacter_DelegateWrapper(const FMulticastScri
 }
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_SPARSE_DATA
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_RPC_WRAPPERS \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_SPARSE_DATA
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetCurrentTurnOrder); \
 	DECLARE_FUNCTION(execSetCurrentCharacter); \
 	DECLARE_FUNCTION(execGetCurrentCharacter);
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetCurrentTurnOrder); \
 	DECLARE_FUNCTION(execSetCurrentCharacter); \
 	DECLARE_FUNCTION(execGetCurrentCharacter);
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_INCLASS_NO_PURE_DECLS \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInGameDataBase(); \
 	friend struct Z_Construct_UClass_UInGameDataBase_Statics; \
@@ -43,7 +52,7 @@ public: \
 	DECLARE_SERIALIZER(UInGameDataBase)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_INCLASS \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUInGameDataBase(); \
 	friend struct Z_Construct_UClass_UInGameDataBase_Statics; \
@@ -52,7 +61,7 @@ public: \
 	DECLARE_SERIALIZER(UInGameDataBase)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_STANDARD_CONSTRUCTORS \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInGameDataBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInGameDataBase) \
@@ -65,7 +74,7 @@ private: \
 public:
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_ENHANCED_CONSTRUCTORS \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UInGameDataBase(UInGameDataBase&&); \
@@ -76,28 +85,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UInGameDataBase)
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_PRIVATE_PROPERTY_OFFSET
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_13_PROLOG
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_GENERATED_BODY_LEGACY \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_PRIVATE_PROPERTY_OFFSET
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_14_PROLOG
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_PRIVATE_PROPERTY_OFFSET \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_SPARSE_DATA \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_RPC_WRAPPERS \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_INCLASS \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_STANDARD_CONSTRUCTORS \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_PRIVATE_PROPERTY_OFFSET \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_SPARSE_DATA \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_RPC_WRAPPERS \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_INCLASS \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_GENERATED_BODY \
+#define TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_PRIVATE_PROPERTY_OFFSET \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_SPARSE_DATA \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_INCLASS_NO_PURE_DECLS \
-	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_16_ENHANCED_CONSTRUCTORS \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_PRIVATE_PROPERTY_OFFSET \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_SPARSE_DATA \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_INCLASS_NO_PURE_DECLS \
+	TacticalRPG_Source_TacticalRPG_Public_InGameDataBase_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

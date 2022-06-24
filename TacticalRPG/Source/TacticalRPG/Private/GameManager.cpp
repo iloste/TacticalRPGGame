@@ -38,6 +38,54 @@ void AGameManager::initiativeTick() {
 	}
 }
 
+void AGameManager::PredictiveInitiativeTick() {
+	// iterate through the characters.
+	// Add their speed to their current initiative.
+	for (size_t i = 0; i < m_allCharacters.Num(); i++)
+	{
+		UCharacterStats* stats = m_allCharacters[i]->getStats();
+		stats->IncreasePredictedInitiative();
+	}
+
+	// check to see if anyone has initiative over 1000.
+	// if so, calculate base reserve.
+	// apply base reserve to everyone but self.
+
+	for (size_t x = 0; x < m_allCharacters.Num(); x++)
+	{
+		UCharacterStats* stats = m_allCharacters[x]->getStats();
+
+		if (stats->GetPredictedInitiative() >= m_turnPointsThreshold)
+		{
+			// base reserve;
+			int baseReserve = stats->GetPredictedBaseReserve();
+
+			for (size_t y = 0; y < m_allCharacters.Num(); y++)
+			{
+				if (x != y)
+				{
+					m_allCharacters[y]->getStats()->ApplyPredictedBaseReserve(baseReserve);
+				}
+			}
+
+			m_currentTurnOrder.Add(m_allCharacters[x]);
+		}
+	}
+}
+
+void AGameManager::PredictTurnOrder() {
+	int counter = 0;
+	while (m_currentTurnOrder.Num() < 5)
+	{
+		PredictiveInitiativeTick();
+		counter++;
+	}
+
+	AActor::FindComponentByClass<UInGameDataBase>()->SetCurrentTurnOrder(m_currentTurnOrder);
+
+}
+
+
 ATRPGCharacter* AGameManager::getNextCharacter() {
 	int counter = 0;
 	while (m_charactersWithTurn.Num() == 0)
@@ -72,6 +120,11 @@ ATRPGCharacter* AGameManager::getNextCharacter() {
 
 	ATRPGCharacter* nextCharacter = m_charactersWithTurn[0];
 	m_charactersWithTurn.RemoveAt(0);
+
+	//testing to see if this works:
+	PredictTurnOrder();
+	//
+
 	return nextCharacter;
 }
 

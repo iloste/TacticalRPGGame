@@ -25,6 +25,12 @@ void UCharacterStats::BeginPlay()
 	m_initiativeCounter = new VitalStat(2000);
 	m_initiativeCounter->decreaseBy(2000);
 
+	m_predictedInitiativeReserve = new VitalStat(500);
+	m_predictedInitiativeReserve->decreaseBy(500);
+
+	m_predictedInitiativeCounter = new VitalStat(2000);
+	m_predictedInitiativeCounter->decreaseBy(2000);
+
 	m_speed = new Stat(rand() % 30 + 100);
 	// ...
 
@@ -75,3 +81,49 @@ int UCharacterStats::getBaseReserve() {
 	return baseReserve;
 }
 
+
+
+
+
+void UCharacterStats::IncreasePredictedInitiative() {
+	m_predictedInitiativeCounter->increaseBy(m_speed->getCurrent() + m_predictedInitiativeReserve->getCurrent());
+	m_predictedInitiativeReserve->decreaseBy(m_predictedInitiativeReserve->getCurrent());
+}
+
+void UCharacterStats::DecreasePredictedInitiative(int num) {
+	m_predictedInitiativeCounter->decreaseBy(num);
+}
+
+
+void UCharacterStats::ApplyPredictedBaseReserve(int baseReserve) {
+	if (baseReserve <= m_predictedInitiativeCounter->getCurrent())
+	{
+		m_predictedInitiativeCounter->decreaseBy(baseReserve);
+		m_predictedInitiativeReserve->increaseBy(baseReserve);
+	}
+	else {
+		m_predictedInitiativeReserve->increaseBy(m_predictedInitiativeCounter->getCurrent());
+		m_predictedInitiativeCounter->decreaseBy(m_predictedInitiativeCounter->getCurrent());
+	}
+
+}
+
+int UCharacterStats::GetPredictedBaseReserve() {
+	// To do: replace 1000 with a variable. This should be the same value as the game manager is using (m_turnPointsThreshold), but I don't want to have to get it from there 
+	// necessarily as I don't want this class to know abobut it. I could have the game manager pass the value in once it has gotten all of the characters. This should work well.
+	int baseReserve = m_predictedInitiativeCounter->getCurrent() - 1000;
+
+	if (baseReserve < 0)
+	{
+		baseReserve = 0;
+	}
+
+	return baseReserve;
+}
+
+
+void UCharacterStats::ResetPredictedValues() {
+	// To Do: check to see if the predicted values need to have their instance deleted
+	m_predictedInitiativeCounter->SetCurrent(m_initiativeCounter->getCurrent());
+	m_predictedInitiativeReserve->SetCurrent(m_initiativeReserve->getCurrent());
+}

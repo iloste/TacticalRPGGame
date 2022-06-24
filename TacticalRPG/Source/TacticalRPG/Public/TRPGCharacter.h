@@ -26,7 +26,9 @@ protected:
 	UHealthSystem* m_healthSystem;
 	static int m_nextID;
 	int m_ID{};
-	FString m_name;
+
+	UPROPERTY( EditAnywhere)
+		FString m_name;
 
 public:
 	// Called every frame

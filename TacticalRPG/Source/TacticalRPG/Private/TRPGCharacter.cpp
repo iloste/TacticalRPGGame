@@ -22,13 +22,13 @@ void ATRPGCharacter::BeginPlay()
 	m_healthSystem = FindComponentByClass<UHealthSystem>();
 
 	// to do: set name properly
-	if (m_ID == 1)
-	{
-		m_name = "Gina";
-	}
-	else {
-		m_name = "Luke";
-	}
+	//if (m_ID == 0)
+	//{
+	//	m_name = "Gina";
+	//}
+	//else {
+	//	m_name = "Luke";
+	//}
 
 	// to do: make this use FindComponent too and then check everything works fine.
 	m_abilities = NewObject<UAbilities>();

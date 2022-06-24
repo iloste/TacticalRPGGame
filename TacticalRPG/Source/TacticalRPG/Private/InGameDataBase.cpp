@@ -37,3 +37,9 @@ void UInGameDataBase::SetCurrentCharacter(ATRPGCharacter* newCharacter){
 	m_updatedCurrentCharacter.Broadcast();
 	// to do: broadcast event that current character has been changed.
 }
+
+void UInGameDataBase::SetCurrentTurnOrder(TArray<ATRPGCharacter*> currentTurnOrder)
+{
+	m_currentTurnOrder = currentTurnOrder; 
+	m_updatedCurrentTurnOrder.Broadcast();
+}

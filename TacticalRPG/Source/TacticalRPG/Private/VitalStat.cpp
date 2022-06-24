@@ -8,12 +8,26 @@ VitalStat::VitalStat()
 }
 VitalStat::VitalStat(int maxValue)
 {
-	m_maxValue = maxValue;
-	m_currentValue = maxValue;
+	Reset(maxValue);
 }
 
 VitalStat::~VitalStat()
 {
+}
+
+
+void VitalStat::SetCurrent(int newCurrent) {
+	if (newCurrent > m_maxValue)
+	{
+		m_currentValue = m_maxValue;
+	}
+	else if (newCurrent < 0)
+	{
+		m_currentValue = 0;
+	}
+	else {
+		m_currentValue = newCurrent;
+	}
 }
 
 void VitalStat::decreaseBy(int decreaseValue) {
@@ -52,4 +66,9 @@ FString VitalStat::GetCurrentAsString() {
 	healthStr += "/";
 	healthStr.AppendInt(m_maxValue);
 	return healthStr;
+}
+
+void VitalStat::Reset(int maxValue) {
+	m_maxValue = maxValue;
+	m_currentValue = maxValue;
 }

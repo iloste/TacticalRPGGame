@@ -7,8 +7,8 @@
 #include "TRPGCharacter.h"
 #include "CharacterStats.h"
 #include "HealthSystem.h"
+#include "InGameDataBase.h"
 #include "GameManager.generated.h"
-
 
 
 /**
@@ -30,12 +30,18 @@ protected:
 	TArray<ATRPGCharacter*> m_allCharacters;
 	TArray<ATRPGCharacter*> m_deadCharacters;
 	TArray<ATRPGCharacter*> m_charactersWithTurn;
+	TArray<ATRPGCharacter*> m_currentTurnOrder;
+	TArray<ATRPGCharacter*> m_predictedTurnOrder;
+
+	
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	int m_turnPointsThreshold{ 1000 };
 
 	// figures out who gets a go, if anybody, on the next tick
 	void initiativeTick();
+	void PredictiveInitiativeTick();
+	void PredictTurnOrder();
 
 	UFUNCTION()
 	void RespondToOnDeath(UHealthSystem* hs);

@@ -14,6 +14,7 @@ public:
 	~VitalStat();
 	VitalStat(int maxValue);
 	int getCurrent() { return m_currentValue; }
+	void SetCurrent(int newCurrent);
 	int getMax() { return m_maxValue; }
 	void decreaseBy(int decreaseValue);
 	void increaseBy(int decreaseValue);
@@ -21,6 +22,7 @@ public:
 	/// Returns a value between 0-1
 	/// </summary>
 	float GetCurrentAsPercentage();
+	void Reset(int maxValue);
 	
 	// Returns health in format 1000/1000
 	FString GetCurrentAsString();

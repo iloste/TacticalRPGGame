@@ -36,6 +36,8 @@ protected:
 
 	VitalStat* m_initiativeCounter;
 	VitalStat* m_initiativeReserve;
+	VitalStat* m_predictedInitiativeCounter;
+	VitalStat* m_predictedInitiativeReserve;
 
 public:
 	// Called every frame
@@ -48,6 +50,13 @@ public:
 	void applyBaseReserve(int baseReserve);
 	int getInitiative() { return m_initiativeCounter->getCurrent(); }
 	int getBaseReserve();
+
+	void IncreasePredictedInitiative();
+	void DecreasePredictedInitiative(int num);
+	void ApplyPredictedBaseReserve(int baseReserve);
+	int GetPredictedInitiative() { return m_predictedInitiativeCounter->getCurrent(); }
+	int GetPredictedBaseReserve();
+	void ResetPredictedValues();
 
 	int GetSpeed() { return m_speed->getCurrent(); }
 	int GetReserve() { return m_initiativeReserve->getCurrent(); }
