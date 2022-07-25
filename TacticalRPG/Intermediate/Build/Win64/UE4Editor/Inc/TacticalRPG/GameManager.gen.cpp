@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	TACTICALRPG_API UClass* Z_Construct_UClass_AGameManager();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_TacticalRPG();
+	TACTICALRPG_API UClass* Z_Construct_UClass_UInGameDataBase_NoRegister();
 	TACTICALRPG_API UClass* Z_Construct_UClass_ATRPGCharacter_NoRegister();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UHealthSystem_NoRegister();
 // End Cross Module References
@@ -35,6 +36,21 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		P_THIS->RespondToOnDeath(Z_Param_hs);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AGameManager::execSetDatabase)
+	{
+		P_GET_OBJECT(UInGameDataBase,Z_Param_database);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetDatabase(Z_Param_database);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AGameManager::execGetDatabase)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(UInGameDataBase**)Z_Param__Result=P_THIS->GetDatabase();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AGameManager::execgetNextCharacter)
 	{
 		P_FINISH;
@@ -47,8 +63,10 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		UClass* Class = AGameManager::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "BindDelegates", &AGameManager::execBindDelegates },
+			{ "GetDatabase", &AGameManager::execGetDatabase },
 			{ "getNextCharacter", &AGameManager::execgetNextCharacter },
 			{ "RespondToOnDeath", &AGameManager::execRespondToOnDeath },
+			{ "SetDatabase", &AGameManager::execSetDatabase },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -71,6 +89,46 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameManager_BindDelegates_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGameManager_GetDatabase_Statics
+	{
+		struct GameManager_eventGetDatabase_Parms
+		{
+			UInGameDataBase* ReturnValue;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameManager_GetDatabase_Statics::NewProp_ReturnValue_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AGameManager_GetDatabase_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventGetDatabase_Parms, ReturnValue), Z_Construct_UClass_UInGameDataBase_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AGameManager_GetDatabase_Statics::NewProp_ReturnValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_GetDatabase_Statics::NewProp_ReturnValue_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGameManager_GetDatabase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGameManager_GetDatabase_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameManager_GetDatabase_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/GameManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGameManager_GetDatabase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGameManager, nullptr, "GetDatabase", nullptr, nullptr, sizeof(GameManager_eventGetDatabase_Parms), Z_Construct_UFunction_AGameManager_GetDatabase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_GetDatabase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGameManager_GetDatabase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_GetDatabase_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGameManager_GetDatabase()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameManager_GetDatabase_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -146,6 +204,46 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AGameManager_SetDatabase_Statics
+	{
+		struct GameManager_eventSetDatabase_Parms
+		{
+			UInGameDataBase* database;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_database_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_database;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameManager_SetDatabase_Statics::NewProp_database_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AGameManager_SetDatabase_Statics::NewProp_database = { "database", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventSetDatabase_Parms, database), Z_Construct_UClass_UInGameDataBase_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AGameManager_SetDatabase_Statics::NewProp_database_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_SetDatabase_Statics::NewProp_database_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGameManager_SetDatabase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGameManager_SetDatabase_Statics::NewProp_database,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameManager_SetDatabase_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/GameManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGameManager_SetDatabase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGameManager, nullptr, "SetDatabase", nullptr, nullptr, sizeof(GameManager_eventSetDatabase_Parms), Z_Construct_UFunction_AGameManager_SetDatabase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_SetDatabase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGameManager_SetDatabase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameManager_SetDatabase_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGameManager_SetDatabase()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameManager_SetDatabase_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AGameManager_NoRegister()
 	{
 		return AGameManager::StaticClass();
@@ -180,8 +278,10 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGameManager_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AGameManager_BindDelegates, "BindDelegates" }, // 1881090153
+		{ &Z_Construct_UFunction_AGameManager_GetDatabase, "GetDatabase" }, // 2036221152
 		{ &Z_Construct_UFunction_AGameManager_getNextCharacter, "getNextCharacter" }, // 3108263485
 		{ &Z_Construct_UFunction_AGameManager_RespondToOnDeath, "RespondToOnDeath" }, // 1810596120
+		{ &Z_Construct_UFunction_AGameManager_SetDatabase, "SetDatabase" }, // 106011111
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameManager_Statics::Class_MetaDataParams[] = {
@@ -247,7 +347,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGameManager, 369678309);
+	IMPLEMENT_CLASS(AGameManager, 1113156936);
 	template<> TACTICALRPG_API UClass* StaticClass<AGameManager>()
 	{
 		return AGameManager::StaticClass();

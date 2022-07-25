@@ -1,3 +1,4 @@
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Definitions.TacticalRPG.h
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\DamageEffect.h
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\VitalStats.h
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Inc\TacticalRPG\DamageEffect.generated.h

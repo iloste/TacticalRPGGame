@@ -4,11 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "TRPGCharacter.h"
+#include "PopupInfo.h"
 #include "Components/ActorComponent.h"
 #include "InGameDataBase.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdatedCurrentCharacter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdatedCurrentTurnOrder);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdatedAbilityPopup);
 
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
@@ -24,6 +26,15 @@ public:
 		FUpdatedCurrentCharacter m_updatedCurrentCharacter;
 	UPROPERTY(BlueprintAssignable)
 		FUpdatedCurrentTurnOrder m_updatedCurrentTurnOrder;
+	UPROPERTY(BlueprintAssignable)
+		FUpdatedAbilityPopup m_updatedAbilityPopup;
+
+
+	UPROPERTY(visibleanywhere)
+		bool buttonPressed{ false };
+	UFUNCTION(BlueprintCallable)
+		void PressedButton(bool pressed) { buttonPressed = pressed; }
+
 
 protected:
 	// Called when the game starts
@@ -42,8 +53,33 @@ public:
 	UFUNCTION(BlueprintCallable)
 		TArray<ATRPGCharacter*>  GetCurrentTurnOrder() { return m_currentTurnOrder; }
 
+	UFUNCTION(BlueprintCallable)
+		void SetAbilityPopup(UAbility* ability, FVector pos);
+	UFUNCTION(BlueprintCallable)
+		void RemoveAbilityPopup();
+
+	UFUNCTION(BlueprintCallable)
+		UAbility* GetPopupAbility() { return m_popupAbility; }
+	UFUNCTION(BlueprintCallable)
+		FVector GetPopupAbilityPos() { return m_popupAbilityPos; }
+
+	UFUNCTION(BlueprintCallable)
+		void AddPopup(UPopupable* owner, UAbility* ability, FVector pos);
+
+	UFUNCTION(BlueprintCallable)
+		UPopupInfo* GetNextPopup();
+
+	UFUNCTION(BlueprintCallable)
+		void RemoveCurrentPopupFromDatabase();
+
 private:
 	ATRPGCharacter* m_currentCharacter;
 	TArray<ATRPGCharacter*> m_currentTurnOrder;
 
+	UAbility* m_popupAbility;
+	FVector m_popupAbilityPos;
+
+	// To do: When removing a popup, make sure it is destroyed and doesn't lead to a memory leak.
+	TArray<UPopupInfo*> m_popups;
+	
 };

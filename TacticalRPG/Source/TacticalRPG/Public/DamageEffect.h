@@ -4,14 +4,28 @@
 
 #include "CoreMinimal.h"
 #include "VitalStats.h"
+#include "DamageEffect.generated.h"
+
 /**
  * 
  */
-class TACTICALRPG_API DamageEffect
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+class TACTICALRPG_API UDamageEffect: public UObject
 {
+	GENERATED_BODY()
+
 public:
-	DamageEffect();
-	~DamageEffect();
+	UDamageEffect();
+	//~DamageEffect();
+	UFUNCTION(BlueprintCallable)
+		VitalStats GetVitalStat() { return m_vitalStat; }
+	UFUNCTION(BlueprintCallable)
+		int GetDamage() { return m_damage; }
+
+	void Setup(VitalStats vitalStat, int damage);
+
+
+private:
 	int m_damage;
 	VitalStats m_vitalStat;
 };

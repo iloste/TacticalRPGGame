@@ -11,6 +11,8 @@ UAbility::UAbility()
 	//PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+
+
 }
 void UAbility::setDescriptors(FString name, FString description) {
 	m_name = name;
@@ -22,6 +24,11 @@ void UAbility::setFunctionalValues(int range, int cost, int castTime, bool areaE
 	m_cost = cost;
 	m_castTime = castTime;
 	m_areaEffect = areaEffect;
+
+	UDamageEffect* a = NewObject<UDamageEffect>();
+	a->Setup(VitalStats::Health, 20);
+	m_damageEffects.Add(a);
+
 }
 
 

@@ -9,6 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UHealthSystem;
+class UInGameDataBase;
 class ATRPGCharacter;
 #ifdef TACTICALRPG_GameManager_generated_h
 #error "GameManager.generated.h already included, missing '#pragma once' in GameManager.h"
@@ -20,6 +21,8 @@ class ATRPGCharacter;
  \
 	DECLARE_FUNCTION(execBindDelegates); \
 	DECLARE_FUNCTION(execRespondToOnDeath); \
+	DECLARE_FUNCTION(execSetDatabase); \
+	DECLARE_FUNCTION(execGetDatabase); \
 	DECLARE_FUNCTION(execgetNextCharacter);
 
 
@@ -27,6 +30,8 @@ class ATRPGCharacter;
  \
 	DECLARE_FUNCTION(execBindDelegates); \
 	DECLARE_FUNCTION(execRespondToOnDeath); \
+	DECLARE_FUNCTION(execSetDatabase); \
+	DECLARE_FUNCTION(execGetDatabase); \
 	DECLARE_FUNCTION(execgetNextCharacter);
 
 

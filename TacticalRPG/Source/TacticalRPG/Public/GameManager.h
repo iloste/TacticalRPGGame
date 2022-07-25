@@ -25,6 +25,14 @@ public:
 	UFUNCTION(BlueprintCallable)
 	ATRPGCharacter* getNextCharacter();
 
+	UFUNCTION(BlueprintCallable)
+	UInGameDataBase* GetDatabase() { return m_database; }
+
+	UFUNCTION(BlueprintCallable)
+	void SetDatabase(UInGameDataBase* database) {  m_database = database; }
+
+	//UInGameDataBase* GetDataBase2(){Get}
+
 protected:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	TArray<ATRPGCharacter*> m_allCharacters;
@@ -32,7 +40,8 @@ protected:
 	TArray<ATRPGCharacter*> m_charactersWithTurn;
 	TArray<ATRPGCharacter*> m_currentTurnOrder;
 	TArray<ATRPGCharacter*> m_predictedTurnOrder;
-
+	
+	UInGameDataBase* m_database;
 	
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)

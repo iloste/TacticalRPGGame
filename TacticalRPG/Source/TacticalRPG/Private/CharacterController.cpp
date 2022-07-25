@@ -35,3 +35,65 @@ void ACharacterController::ReduceInitiative(UCharacterStats* stats, int reductio
 	stats->DecreaseInitiative(reductionAmount);
 }
 
+//void ACharacterController::ChangeState(CharacterStates newState)
+//{
+//	ChangeState(m_allStates[(int)newState]);
+//}
+
+void ACharacterController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	/*StateUpdate();
+
+	if (m_currentState->ReadyToChange())
+	{
+		ChangeState(m_currentState->GetNextState());
+	}*/
+}
+
+void ACharacterController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	m_gameManager = Cast<AGameManager>(UGameplayStatics::GetGameMode(this));
+
+	//CharControllerState* state = new CharControllerIdle();
+	//state->SetGameManager(m_gameManager);
+	//m_allStates.push_back(state);
+	//// to do: make the first on the default state.
+	//m_allStates.push_back(state);
+
+	//state = new CharacterControllerMoving();
+	//state->SetGameManager(m_gameManager);
+	//m_allStates.push_back(state);
+	//m_allStates.push_back(state);
+
+	//state = new CharControllerAttacking();
+	//state->SetGameManager(m_gameManager);
+	//m_allStates.push_back(state);
+	//m_allStates.push_back(state);
+
+
+	//ChangeState(m_allStates[1]);
+}
+//
+//void ACharacterController::ChangeState(CharControllerState* newState)
+//{
+//	if (m_currentState != nullptr)
+//	{
+//		m_currentState->OnExit();
+//	}
+//
+//	m_currentState = newState;
+//	m_currentState->OnEnter();
+//}
+//
+//void ACharacterController::StateUpdate()
+//{
+//	if (m_currentState != nullptr)
+//	{
+//		m_currentState->Update();
+//	}
+//}
+

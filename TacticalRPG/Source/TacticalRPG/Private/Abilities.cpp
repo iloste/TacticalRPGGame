@@ -20,10 +20,15 @@ UAbilities::UAbilities()
 void UAbilities::BeginPlay()
 {
 	Super::BeginPlay();
-	UAbility* swordAttack = NewObject<UAbility>();
-	swordAttack->setDescriptors("Sword Attack", "Attacks with a sword");
-	swordAttack->setFunctionalValues(100, 2, 0, false);
-	m_abilities.Add(swordAttack);
+	UAbility* a = NewObject<UAbility>();
+	a->setDescriptors("a", "Attacks with a sword");
+	a->setFunctionalValues(300, 2, 1, false);
+	m_abilities.Add(a);
+
+	UAbility* b = NewObject<UAbility>();
+	b->setDescriptors("b", "Attacks with a sword");
+	b->setFunctionalValues(100, 3, 2, false);
+	m_abilities.Add(b);
 	// ...
 	
 }

@@ -163,6 +163,7 @@ void AGameManager::RespondToOnDeath(UHealthSystem* hs) {
 void AGameManager::BeginPlay()
 {
 	Super::BeginPlay();
+	//m_database = FindComponentByClass<UInGameDataBase>();
 }
 
 void AGameManager::BindDelegates()

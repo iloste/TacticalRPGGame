@@ -13,6 +13,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\VitalStats.h
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\StatusEffect.h
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\DamageEffect.h
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Inc\TacticalRPG\DamageEffect.generated.h
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\StatBuff.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\vector
 C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Inc\TacticalRPG\Ability.generated.h

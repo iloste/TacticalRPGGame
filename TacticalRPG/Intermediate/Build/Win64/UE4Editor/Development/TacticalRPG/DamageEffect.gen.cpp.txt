@@ -1,0 +1,6 @@
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\Definitions.TacticalRPG.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/DamageEffect.h
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\VitalStats.h
+C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Inc\TacticalRPG\DamageEffect.generated.h

@@ -5,10 +5,10 @@
 /**
  * 
  */
-
-enum class VitalStats
+UENUM(BlueprintType)
+enum class VitalStats : uint8
 {
-	Health,
-	Stamina,
-	Mana
+	Health UMETA(DisplayName ="Health"),
+	Stamina UMETA(DisplayName = "Stamina"), 
+	Mana UMETA(DisplayName = "Mana"),
 };

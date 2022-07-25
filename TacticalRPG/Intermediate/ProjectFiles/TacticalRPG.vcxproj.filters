@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TacticalRPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5FBB6C54-7375-4089-B3C5-80284DE8C400}</UniqueIdentifier>
+      <UniqueIdentifier>{6E6AE725-2D2A-491E-B5ED-407F24250E34}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacticalRPG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4D4D64C7-B2B5-4E97-A0F9-42120D785C9F}</UniqueIdentifier>
+      <UniqueIdentifier>{7AD7ED58-B255-4F6D-885B-9121F4C1EA45}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TacticalRPG">
-      <UniqueIdentifier>{2CA5DAAC-DE55-4773-8196-9BDE984C17AD}</UniqueIdentifier>
+      <UniqueIdentifier>{FBF812E1-700B-4129-B925-151063415F54}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacticalRPG\TacticalRPG.Build.cs">
       <Filter>Source\TacticalRPG</Filter>
@@ -42,7 +42,7 @@
       <Filter>Source\TacticalRPG</Filter>
     </ClInclude>
     <Filter Include="Source\TacticalRPG\Private">
-      <UniqueIdentifier>{17CC97A2-CAA5-4906-96D5-506EFC529FD6}</UniqueIdentifier>
+      <UniqueIdentifier>{03332C61-4D91-4FAE-99B1-78D1ABAF5B5C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\Abilities.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
@@ -53,7 +53,28 @@
     <ClCompile Include="..\..\Source\TacticalRPG\Private\CharacterController.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\CharacterControllerDefault.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\CharacterControllerMoving.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\CharacterStates.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\CharacterStats.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\CharControllerAttacking.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\CharControllerIdle.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\CharControllerState.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\CharStates.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\DamageEffect.cpp">
@@ -69,6 +90,12 @@
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\InGameDataBase.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\Popupable.cpp">
+      <Filter>Source\TacticalRPG\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacticalRPG\Private\PopupInfo.cpp">
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TacticalRPG\Private\Stat.cpp">
@@ -93,7 +120,7 @@
       <Filter>Source\TacticalRPG\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TacticalRPG\Public">
-      <UniqueIdentifier>{2E1D864A-6233-4DF2-8FBD-BE76836C820A}</UniqueIdentifier>
+      <UniqueIdentifier>{D908D02F-F693-40DA-BDDC-C0C40876A608}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\Abilities.h">
       <Filter>Source\TacticalRPG\Public</Filter>
@@ -104,7 +131,28 @@
     <ClInclude Include="..\..\Source\TacticalRPG\Public\CharacterController.h">
       <Filter>Source\TacticalRPG\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\CharacterControllerDefault.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\CharacterControllerMoving.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\CharacterStates.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\CharacterStats.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\CharControllerAttacking.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\CharControllerIdle.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\CharControllerState.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\CharStates.h">
       <Filter>Source\TacticalRPG\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\DamageEffect.h">
@@ -120,6 +168,12 @@
       <Filter>Source\TacticalRPG\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\InGameDataBase.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\Popupable.h">
+      <Filter>Source\TacticalRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacticalRPG\Public\PopupInfo.h">
       <Filter>Source\TacticalRPG\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TacticalRPG\Public\Stat.h">

@@ -3,10 +3,12 @@
 
 #include "DamageEffect.h"
 
-DamageEffect::DamageEffect()
+UDamageEffect::UDamageEffect()
 {
 }
 
-DamageEffect::~DamageEffect()
-{
+void UDamageEffect::Setup(VitalStats vitalStat, int damage) {
+	m_vitalStat = vitalStat;
+	m_damage = damage;
 }
+

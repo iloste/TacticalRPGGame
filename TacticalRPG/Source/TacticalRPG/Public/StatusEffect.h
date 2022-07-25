@@ -15,7 +15,7 @@ class TACTICALRPG_API StatusEffect
 public:
 	StatusEffect();
 	~StatusEffect();
-	DamageEffect m_damageEffect;
+	UDamageEffect m_damageEffect;
 	StatBuff m_statBuff;
 	int m_turnsLeft;
 };

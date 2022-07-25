@@ -31,6 +31,19 @@ public:
 		FString getDescription() { return m_description; }
 	UFUNCTION(BlueprintCallable)
 		int getRange() { return m_range; }
+	UFUNCTION(BlueprintCallable)
+		UTexture* GetProfileImage() { return m_profileImage; }
+	UFUNCTION(BlueprintCallable)
+		int GetCastTime() { return m_castTime; }
+	UFUNCTION(BlueprintCallable)
+		int GetCastCost() { return m_cost; }
+	UFUNCTION(BlueprintCallable)
+		bool IsAreaEffect() { return m_areaEffect; }
+	UFUNCTION(BlueprintCallable)
+		TArray<UDamageEffect*> GetDamageEffects() { return m_damageEffects; }
+	/*UFUNCTION(BlueprintCallable)
+		TArray<StatusEffect*> GetStatusEffects() { return m_statusEffects; }*/
+
 protected:
 	// Called when the game starts
 	/*virtual void BeginPlay() override;*/
@@ -43,11 +56,12 @@ private:
 	FString m_name;
 	FString m_description;
 	int m_cost;
-	VitalStats m_statToTarget;
+	//VitalStats m_statToTarget;
 	int m_castTime;
 	bool m_areaEffect;
 	int m_range;
-	std::vector<StatusEffect> m_statusEffects;
-	std::vector<DamageEffect> m_damageEffects;
+	TArray<StatusEffect*> m_statusEffects;
+	TArray<UDamageEffect*> m_damageEffects;
+	UTexture* m_profileImage;
 
 };

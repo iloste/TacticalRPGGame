@@ -6,8 +6,17 @@
 #include "GameFramework/PlayerController.h"
 #include "CharacterStats.h"
 #include "TRPGCharacter.h"
+#include "CharControllerState.h"
+#include "CharacterControllerMoving.h"
+#include "CharacterControllerDefault.h"
+#include "CharControllerAttacking.h"
+#include <vector>
+#include "CharacterStates.h"
+#include "CharControllerIdle.h"
 #include "CharacterController.generated.h"
 
+
+class CharControllerState;
 /**
  *
  */
@@ -25,5 +34,25 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void ReduceInitiative(UCharacterStats* stats, int reductionAmount);
+	
+	
+
+	//void ChangeState(CharacterStates newState);
+
+	virtual void Tick(float DeltaTime) override;
+	virtual void BeginPlay() override;
+
+private:
+
+	
+	//CharControllerState* m_currentState;
+	//std::vector<CharControllerState*> m_allStates{};
+	//
+	//void ChangeState(CharControllerState* newState);
+	//void StateUpdate();
+	
+
+	AGameManager* m_gameManager{};
+
 };
 

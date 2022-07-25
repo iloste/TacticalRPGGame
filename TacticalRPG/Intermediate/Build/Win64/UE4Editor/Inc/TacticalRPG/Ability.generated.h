@@ -8,6 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UDamageEffect;
+class UTexture;
 #ifdef TACTICALRPG_Ability_generated_h
 #error "Ability.generated.h already included, missing '#pragma once' in Ability.h"
 #endif
@@ -16,6 +18,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TacticalRPG_Source_TacticalRPG_Public_Ability_h_19_SPARSE_DATA
 #define TacticalRPG_Source_TacticalRPG_Public_Ability_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetDamageEffects); \
+	DECLARE_FUNCTION(execIsAreaEffect); \
+	DECLARE_FUNCTION(execGetCastCost); \
+	DECLARE_FUNCTION(execGetCastTime); \
+	DECLARE_FUNCTION(execGetProfileImage); \
 	DECLARE_FUNCTION(execgetRange); \
 	DECLARE_FUNCTION(execgetDescription); \
 	DECLARE_FUNCTION(execgetName);
@@ -23,6 +30,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define TacticalRPG_Source_TacticalRPG_Public_Ability_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetDamageEffects); \
+	DECLARE_FUNCTION(execIsAreaEffect); \
+	DECLARE_FUNCTION(execGetCastCost); \
+	DECLARE_FUNCTION(execGetCastTime); \
+	DECLARE_FUNCTION(execGetProfileImage); \
 	DECLARE_FUNCTION(execgetRange); \
 	DECLARE_FUNCTION(execgetDescription); \
 	DECLARE_FUNCTION(execgetName);

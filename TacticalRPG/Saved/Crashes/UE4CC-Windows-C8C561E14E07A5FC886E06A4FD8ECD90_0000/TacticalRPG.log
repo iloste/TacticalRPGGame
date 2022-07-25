@@ -1,0 +1,1175 @@
+﻿Log file open, 07/06/22 11:47:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TacticalRPG
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.245882
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+[2022.07.06-10.48.00:624][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.07.06-10.48.00:624][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+[2022.07.06-10.48.00:624][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+[2022.07.06-10.48.00:635][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.07.06-10.48.00:635][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.07.06-10.48.00:636][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.07.06-10.48.00:637][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.06-10.48.00:637][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.07.06-10.48.00:639][  0]LogHAL: Display: Platform has ~ 8 GB [8383946752 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.07.06-10.48.00:639][  0]LogInit: Going up to parent DeviceProfile []
+[2022.07.06-10.48.00:640][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.07.06-10.48.00:640][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Scalability.ini]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.07.06-10.48.00:641][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Engine.ini]
+[2022.07.06-10.48.00:641][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Config/Windows/Editor.ini]
+[2022.07.06-10.48.00:643][  0]LogInit: Computer: DESKTOP-A03C4ER
+[2022.07.06-10.48.00:643][  0]LogInit: User: LukeR
+[2022.07.06-10.48.00:643][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.07.06-10.48.00:643][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.07.06-10.48.00:643][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2022.07.06-10.48.00:643][  0]LogMemory: Platform Memory Stats for Windows
+[2022.07.06-10.48.00:643][  0]LogMemory: Process Physical Memory: 142.38 MB used, 142.38 MB peak
+[2022.07.06-10.48.00:643][  0]LogMemory: Process Virtual Memory: 127.65 MB used, 127.65 MB peak
+[2022.07.06-10.48.00:643][  0]LogMemory: Physical Memory: 4994.67 MB used,  3000.89 MB free, 7995.55 MB total
+[2022.07.06-10.48.00:643][  0]LogMemory: Virtual Memory: 134202192.00 MB used,  15538.73 MB free, 134217728.00 MB total
+[2022.07.06-10.48.00:651][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.07.06-10.48.01:031][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.07.06-10.48.01:033][  0]LogInit: Using OS detected language (en-GB).
+[2022.07.06-10.48.01:033][  0]LogInit: Using OS detected locale (en-GB).
+[2022.07.06-10.48.01:063][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2022.07.06-10.48.01:460][  0]LogInit: Setting process to per monitor DPI aware
+[2022.07.06-10.48.01:493][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.07.06-10.48.01:567][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.07.06-10.48.01:567][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.07.06-10.48.04:283][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2022.07.06-10.48.04:331][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.06-10.48.04:331][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.07.06-10.48.04:331][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.07.06-10.48.04:331][  0]LogD3D11RHI: D3D11 adapters:
+[2022.07.06-10.48.05:539][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2022.07.06-10.48.05:539][  0]LogD3D11RHI:       5991/0/3997 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.07.06-10.48.05:599][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.07.06-10.48.05:599][  0]LogD3D11RHI:       128/0/3997 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:       0/0/3997 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1660 Ti
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     DeviceId    : 2191
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     SubSysId    : 85501558
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     DedicatedVideoMemory : 6282018816 bytes
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     SharedSystemMemory : 4191973376 bytes
+[2022.07.06-10.48.05:605][  0]LogD3D11RHI:     AdapterLuid : 0 58997
+[2022.07.06-10.48.05:611][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.07.06-10.48.05:611][  0]LogD3D11RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2022.07.06-10.48.05:611][  0]LogWindows: EnumDisplayDevices:
+[2022.07.06-10.48.05:612][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2022.07.06-10.48.05:612][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.07.06-10.48.05:612][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.07.06-10.48.05:612][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2022.07.06-10.48.05:613][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2022.07.06-10.48.05:613][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2022.07.06-10.48.05:613][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2022.07.06-10.48.05:613][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.07.06-10.48.05:613][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:   Driver Version: 457.20 (internal:27.21.14.5720, unified:457.20)
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:      Driver Date: 11-2-2020
+[2022.07.06-10.48.05:614][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1660 Ti
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     DeviceId    : 2191
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     SubSysId    : 85501558
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     DedicatedVideoMemory : 6282018816 bytes
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     SharedSystemMemory : 4191973376 bytes
+[2022.07.06-10.48.05:614][  0]LogD3D11RHI:     AdapterLuid : 0 58997
+[2022.07.06-10.48.05:696][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.07.06-10.48.05:697][  0]LogD3D11RHI: Async texture creation enabled
+[2022.07.06-10.48.05:697][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.07.06-10.48.05:800][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.07.06-10.48.06:019][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.07.06-10.48.06:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.07.06-10.48.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.07.06-10.48.07:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.07.06-10.48.07:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.07.06-10.48.07:170][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.07.06-10.48.07:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.07.06-10.48.07:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.07.06-10.48.07:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.07.06-10.48.07:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.07.06-10.48.07:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.07.06-10.48.07:312][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.07.06-10.48.07:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.07.06-10.48.07:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.07.06-10.48.07:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.07.06-10.48.07:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.07.06-10.48.07:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.07.06-10.48.07:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.07.06-10.48.07:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.07.06-10.48.07:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.07.06-10.48.07:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.07.06-10.48.07:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.07.06-10.48.07:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.07.06-10.48.07:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.07.06-10.48.07:775][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.07.06-10.48.07:849][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.07.06-10.48.08:317][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.07.06-10.48.08:761][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.07.06-10.48.08:763][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Intermediate/Shaders/WorkingDirectory/19436/).
+[2022.07.06-10.48.08:763][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LukeR/AppData/Local/Temp/UnrealShaderWorkingDir/034BA9D748DDD3FBBA444E9E7679A495/'.
+[2022.07.06-10.48.08:764][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.07.06-10.48.08:764][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.07.06-10.48.08:764][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.07.06-10.48.15:685][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.07.06-10.48.16:016][  0]LogDerivedDataCache: Loaded boot cache 0.33s 94MB C:/Users/LukeR/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.07.06-10.48.16:016][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LukeR/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.07.06-10.48.16:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.07.06-10.48.16:017][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.07.06-10.48.16:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.07.06-10.48.16:017][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.07.06-10.48.16:073][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.07.06-10.48.16:073][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.07.06-10.48.16:073][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.07.06-10.48.16:106][  0]LogDerivedDataCache: Speed tests for C:/Users/LukeR/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2022.07.06-10.48.16:106][  0]LogDerivedDataCache: Display: Performance to C:/Users/LukeR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.52ms. RandomReadSpeed=60.73MBs, RandomWriteSpeed=85.30MBs. Assigned SpeedClass 'Local'
+[2022.07.06-10.48.16:107][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LukeR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.07.06-10.48.16:108][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.07.06-10.48.16:108][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.07.06-10.48.16:257][  0]LogSlate: Using FreeType 2.10.0
+[2022.07.06-10.48.16:294][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.06-10.48.17:145][  0]LogAssetRegistry: FAssetRegistry took 0.0136 seconds to start up
+[2022.07.06-10.48.18:101][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.06-10.48.18:102][  0]LogInit: Active device profile: [000001B555058F00][000001B550C36800 49] Windows
+[2022.07.06-10.48.18:102][  0]LogInit: Profiles: [000001B555058F00][000001B550C36800 49] Windows, [000001B555016400][000001B535E50940 49] WindowsNoEditor, [000001B555059F00][000001B5536ECA80 49] WindowsServer, [000001B555015600][000001B5530D2BC0 49] WindowsClient, [000001B555059000][000001B550B8ED00 49] IOS, [000001B555017A00][000001B5533B8E80 49] iPadAir, [000001B55505B300][000001B54D4C7000 49] iPadAir2, [000001B554FB5300][000001B552F512C0 49] IPadPro, [000001B554FB5400][000001B54D4CB300 49] iPadAir3, [000001B555014B00][000001B552F55480 49] iPadAir4, [000001B554FB6100][000001B552F59600 49] iPadMini2, [000001B555017400][000001B552F5D780 49] iPadMini3, [000001B554FB6C00][000001B552F61900 49] iPadMini4, [000001B555016700][000001B552F65A80 49] iPadMini5, [000001B554FBCE00][000001B552F6C1C0 49] iPhone6, [000001B554FBCF00][000001B552F68200 49] iPodTouch6, [000001B55505B700][000001B5530AA4C0 49] iPhone7, [000001B55505A800][000001B552F70500 49] iPodTouch7, [000001B554FB4C00][000001B5530AE680 49] iPhone5S, [000001B555059300][000001B5530B2800 49] iPhone6Plus, [000001B555058600][000001B5530B6980 49] iPhone6S, [000001B554FBD300][000001B5530BAB00 49] iPhone6SPlus, [000001B555058B00][000001B535E58C40 49] iPhone7Plus, [000001B554FBD600][000001B5530BED80 49] iPhoneSE, [000001B555058A00][000001B5530C2EC0 49] iPhone8, [000001B554FBD200][000001B5530CB040 49] iPhone8Plus, [000001B554FB6B00][000001B5530CF1C0 49] iPhoneX, [000001B554FBCC00][000001B552FDD340 49] iPhoneXS, [000001B554FB7A00][000001B552FE14C0 49] iPhoneXSMax, [000001B554FBF800][000001B552FE5640 49] iPhoneXR, [000001B554FB4D00][000001B552FE97C0 49] iPhone11, [000001B554FBE600][000001B552FED940 49] iPhone11Pro, [000001B554FB6900][000001B552FF1AC0 49] iPhone11ProMax, [000001B554FBC200][000001B552FF40C0 49] iPhoneSE2, [000001B554FB4B00][000001B552FF8240 49] iPhone12Mini, [000001B554FBEA00][000001B552FFC3C0 49] iPhone12, [000001B554FB6E00][000001B553000540 49] iPhone12Pro, [000001B554FBCA00][000001B5530046C0 49] iPhone12ProMax, [000001B554FB7200][000001B553008840 49] iPadPro105, [000001B554FBF600][000001B55300C9C0 49] iPadPro129, [000001B554FB6000][000001B553010B40 49] iPadPro97, [000001B554FBE000][000001B54D804CC0 49] iPadPro2_129, [000001B554FB6400][000001B5530C6E00 49] iPad5, [000001B554FBD400][000001B54D808F40 49] iPad6, [000001B554FB5000][000001B54D80D080 49] iPad7, [000001B554FBD700][000001B54D8111C0 49] iPad8, [000001B554FB7C00][000001B54D819340 49] iPadPro11, [000001B554FBD800][000001B54D81D4C0 49] iPadPro2_11, [000001B554FB4600][000001B54D821640 49] iPadPro3_129, [000001B554FBCD00][000001B54D8257C0 49] iPadPro4_129, [000001B554FB7100][000001B54D829940 49] AppleTV, [000001B554FBC800][000001B54D82DAC0 49] AppleTV4K, [000001B554FB4500][000001B54D8300C0 49] TVOS, [000001B554FBC500][000001B54D834240 49] Mac, [000001B554FB4700][000001B54D8383C0 49] MacClient, [000001B554FBD500][000001B552EE0540 49] MacNoEditor, [000001B554FB5500][000001B552EE46C0 49] MacServer, [000001B554FBEE00][000001B552EE8840 49] Linux, [000001B554FB4400][000001B552EEC9C0 49] LinuxAArch64, [000001B554FBDE00][000001B552EF0B40 49] LinuxNoEditor, [000001B554FB5C00][000001B552EF4CC0 49] LinuxAArch64NoEditor, [000001B554FBE900][000001B552EF8E40 49] LinuxClient, [000001B554FB6D00][000001B54D814F80 49] LinuxAArch64Client, [000001B554FBC100][000001B552EFD0C0 49] LinuxServer, [000001B554FB5E00][000001B552F01200 49] LinuxAArch64Server, [000001B554FBCB00][000001B552F05340 49] Android, [000001B554FB5A00][000001B552F0D4C0 49] Android_Low, [000001B554FBEF00][000001B552F11640 49] Android_Mid, [000001B554FB5100][000001B552F157C0 49] Android_High, [000001B554FBF000][000001B552F19940 49] Android_Default, [000001B554FB5700][000001B552F1DAC0 49] Android_Adreno4xx, [000001B554FBD900][000001B552F200C0 49] Android_Adreno5xx_Low, [000001B554FB4A00][000001B552F24240 49] Android_Adreno5xx, [000001B554FBF400][000001B552F283C0 49] Android_Adreno6xx, [000001B554FB4E00][000001B552F2C540 49] Android_Adreno6xx_Vulkan, [000001B554FBF100][000001B552F306C0 49] Android_Mali_T6xx, [000001B55505AF00][000001B552F34840 49] Android_Mali_T7xx, [000001B555014800][000001B552F389C0 49] Android_Mali_T8xx, [000001B555059200][000001B552F3CB40 49] Android_Mali_G71, [000001B555014E00][000001B552F40CC0 49] Android_Mali_G72, [000001B555059100][000001B55319CE40 49] Android_Mali_G72_Vulkan, [000001B555016500][000001B5531A0FC0 49] Android_Mali_G76, [000001B555059500][000001B5531A5140 49] Android_Mali_G76_Vulkan, [000001B555016000][000001B552F09280 49] Android_Mali_G77, [000001B55505BF00][000001B5531A93C0 49] Android_Mali_G77_Vulkan, [000001B555015D00][000001B5531AD500 49] Android_Mali_G78, [000001B555058300][000001B5531B5680 49] Android_Mali_G78_Vulkan, [000001B555014400][000001B5531B9800 49] Android_Mali_G710, [000001B55505B600][000001B5531BD980 49] Android_Mali_G710_Vulkan, [000001B555017100][000001B5531C1B00 49] Android_Vulkan_SM5, [000001B555058900][000001B5531C4100 49] Android_PowerVR_G6xxx, [000001B555014A00][000001B5531C8280 49] Android_PowerVR_GT7xxx, [000001B555058D00][000001B5531CC400 49] Android_PowerVR_GE8xxx, [000001B555017C00][000001B5531D0580 49] Android_PowerVR_GM9xxx, [000001B55505A300][000001B5531D4700 49] Android_PowerVR_GM9xxx_Vulkan, [000001B555015200][000001B5531D8880 49] Android_TegraK1, [000001B55505AA00][000001B5531DCA00 49] Android_Unknown_Vulkan, [000001B555017000][000001B5531E0B80 49] Lumin, [000001B555059C00][000001B5531E4D00 49] Lumin_Desktop, [000001B555016E00][000001B5531E8E80 49] HoloLens, 
+[2022.07.06-10.48.19:368][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.07.06-10.48.19:368][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.07.06-10.48.19:368][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.07.06-10.48.19:368][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.07.06-10.48.19:369][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.07.06-10.48.19:496][  0]LogNetVersion: TacticalRPG 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 1640628072)
+[2022.07.06-10.48.21:463][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.07.06-10.48.21:749][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.07.06-10.48.21:761][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2022.07.06-10.48.21:761][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2022.07.06-10.48.21:761][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.07.06-10.48.25:070][  0]LogPython: Using Python 3.7.7
+[2022.07.06-10.48.28:975][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: BD7022A849C6E650ED482CB0B4511B1E | Instance: EB7A73D34404629B74657DB9CCC84D88 (DESKTOP-A03C4ER-19436).
+[2022.07.06-10.48.29:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.07.06-10.48.29:678][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.07.06-10.48.34:033][  0]LogOpenImageDenoise: OIDN starting up
+[2022.07.06-10.48.34:510][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.07.06-10.48.34:722][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.07.06-10.48.34:722][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.07.06-10.48.36:323][  0]SourceControl: Source control is disabled
+[2022.07.06-10.48.36:323][  0]SourceControl: Source control is disabled
+[2022.07.06-10.48.36:361][  0]SourceControl: Source control is disabled
+[2022.07.06-10.48.36:413][  0]SourceControl: Source control is disabled
+[2022.07.06-10.48.36:452][  0]SourceControl: Source control is disabled
+[2022.07.06-10.48.36:538][  0]LogUProjectInfo: Found projects:
+[2022.07.06-10.48.36:879][  0]LogCollectionManager: Loaded 0 collections in 0.007194 seconds
+[2022.07.06-10.48.37:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Saved/Collections/' took 0.00s
+[2022.07.06-10.48.37:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Content/Developers/LukeR/Collections/' took 0.00s
+[2022.07.06-10.48.37:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Content/Collections/' took 0.00s
+[2022.07.06-10.48.37:151][  0]LogOcInput: OculusInput pre-init called
+[2022.07.06-10.48.38:594][  0]LogEngine: Initializing Engine...
+[2022.07.06-10.48.38:687][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2022.07.06-10.48.38:688][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.06-10.48.38:688][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.07.06-10.48.38:701][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2022.07.06-10.48.39:429][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.07.06-10.48.39:570][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.07.06-10.48.39:595][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.07.06-10.48.39:632][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.07.06-10.48.39:641][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.07.06-10.48.39:646][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.07.06-10.48.39:646][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.07.06-10.48.39:649][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.06-10.48.39:649][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.06-10.48.39:649][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.06-10.48.39:649][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.06-10.48.39:649][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.06-10.48.39:649][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.06-10.48.39:649][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.06-10.48.39:650][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.06-10.48.39:656][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.06-10.48.39:656][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.06-10.48.39:656][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.06-10.48.39:656][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.06-10.48.39:783][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.06-10.48.39:783][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.07.06-10.48.42:989][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.07.06-10.48.43:064][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.06-10.48.43:112][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.06-10.48.43:113][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.06-10.48.43:118][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.06-10.48.43:119][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.06-10.48.43:120][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.07.06-10.48.43:121][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.06-10.48.43:121][  0]LogInit: FAudioDevice initialized.
+[2022.07.06-10.48.43:125][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.06-10.48.43:125][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.07.06-10.48.43:128][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.07.06-10.48.43:292][  0]LogDerivedDataCache: Saved boot cache 0.16s 94MB C:/Users/LukeR/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.07.06-10.48.43:293][  0]LogInit: Texture streaming: Enabled
+[2022.07.06-10.48.43:452][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2022.07.06-10.48.43:512][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.07.06-10.48.43:513][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.07.06-10.48.43:522][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.07.06-10.48.43:984][  0]LogInit: Transaction tracking system initialized
+[2022.07.06-10.48.44:257][  0]BlueprintLog: New page: Editor Load
+[2022.07.06-10.48.45:268][  0]LocalizationService: Localization service is disabled
+[2022.07.06-10.48.46:232][  0]TimingProfiler: Initialize
+[2022.07.06-10.48.46:236][  0]TimingProfiler: OnSessionChanged
+[2022.07.06-10.48.46:236][  0]LoadingProfiler: Initialize
+[2022.07.06-10.48.46:237][  0]LoadingProfiler: OnSessionChanged
+[2022.07.06-10.48.46:238][  0]NetworkingProfiler: Initialize
+[2022.07.06-10.48.46:239][  0]NetworkingProfiler: OnSessionChanged
+[2022.07.06-10.48.46:239][  0]MemoryProfiler: Initialize
+[2022.07.06-10.48.46:239][  0]MemoryProfiler: OnSessionChanged
+[2022.07.06-10.48.53:591][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Content/' took 0.01s
+[2022.07.06-10.48.53:591][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.07.06-10.48.53:592][  0]LogCook: Display: Mobile HDR setting 1
+[2022.07.06-10.48.55:905][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.07.06-10.48.55:935][  0]SourceControl: Source control is disabled
+[2022.07.06-10.48.55:938][  0]LogUnrealEdMisc: Loading editor; pre map load, took 63.674
+[2022.07.06-10.48.55:944][  0]Cmd: MAP LOAD FILE="../../../../../../Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.06-10.48.55:966][  0]LightingResults: New page: Lighting Build
+[2022.07.06-10.48.55:998][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.07.06-10.48.56:010][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.06-10.48.56:027][  0]MapCheck: New page: Map Check
+[2022.07.06-10.48.56:027][  0]LightingResults: New page: Lighting Build
+[2022.07.06-10.48.56:083][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.06-10.48.56:156][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.07.06-10.48.58:506][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.07.06-10.48.58:510][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.07.06-10.48.58:718][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.06-10.48.58:745][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2022.07.06-10.48.58:789][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.07.06-10.48.58:793][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.06-10.48.58:795][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.697ms to complete.
+[2022.07.06-10.48.58:795][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.856
+[2022.07.06-10.48.58:904][  0]LogUnrealEdMisc: Total Editor Startup Time, took 66.641
+[2022.07.06-10.48.59:373][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.06-10.48.59:391][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.06-10.48.59:405][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.06-10.48.59:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.06-10.48.59:531][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0315 seconds. Added 3832 classes and 931 folders.
+[2022.07.06-10.48.59:554][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.07.06-10.48.59:587][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.07.06-10.48.59:587][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:587][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.07.06-10.48.59:590][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:590][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2022.07.06-10.48.59:591][  0]LogPakFile: OnPakFileMounted2Time == 0.003631
+[2022.07.06-10.48.59:615][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.07.06-10.48.59:615][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:615][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.07.06-10.48.59:615][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:615][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2022.07.06-10.48.59:616][  0]LogPakFile: OnPakFileMounted2Time == 0.000147
+[2022.07.06-10.48.59:629][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.07.06-10.48.59:629][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:629][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.07.06-10.48.59:629][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:629][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2022.07.06-10.48.59:629][  0]LogPakFile: OnPakFileMounted2Time == 0.000083
+[2022.07.06-10.48.59:639][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.07.06-10.48.59:639][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:639][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.07.06-10.48.59:639][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:639][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack)
+[2022.07.06-10.48.59:639][  0]LogPakFile: OnPakFileMounted2Time == 0.000083
+[2022.07.06-10.48.59:649][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.07.06-10.48.59:649][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:649][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.07.06-10.48.59:649][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:649][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2022.07.06-10.48.59:649][  0]LogPakFile: OnPakFileMounted2Time == 0.000058
+[2022.07.06-10.48.59:659][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.07.06-10.48.59:659][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:659][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.07.06-10.48.59:659][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:659][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2022.07.06-10.48.59:659][  0]LogPakFile: OnPakFileMounted2Time == 0.000073
+[2022.07.06-10.48.59:667][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.07.06-10.48.59:667][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:667][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.07.06-10.48.59:667][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:667][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2022.07.06-10.48.59:667][  0]LogPakFile: OnPakFileMounted2Time == 0.000074
+[2022.07.06-10.48.59:678][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.07.06-10.48.59:678][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:678][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.07.06-10.48.59:678][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:678][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2022.07.06-10.48.59:678][  0]LogPakFile: OnPakFileMounted2Time == 0.000063
+[2022.07.06-10.48.59:690][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.07.06-10.48.59:690][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:690][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.07.06-10.48.59:690][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:690][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2022.07.06-10.48.59:690][  0]LogPakFile: OnPakFileMounted2Time == 0.000079
+[2022.07.06-10.48.59:705][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.07.06-10.48.59:705][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:705][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.07.06-10.48.59:705][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:705][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2022.07.06-10.48.59:705][  0]LogPakFile: OnPakFileMounted2Time == 0.000097
+[2022.07.06-10.48.59:716][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.07.06-10.48.59:716][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:716][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.07.06-10.48.59:716][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:716][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2022.07.06-10.48.59:716][  0]LogPakFile: OnPakFileMounted2Time == 0.000091
+[2022.07.06-10.48.59:730][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.07.06-10.48.59:730][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:730][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.07.06-10.48.59:730][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:730][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2022.07.06-10.48.59:730][  0]LogPakFile: OnPakFileMounted2Time == 0.000100
+[2022.07.06-10.48.59:742][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.07.06-10.48.59:742][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:742][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.07.06-10.48.59:742][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:742][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2022.07.06-10.48.59:742][  0]LogPakFile: OnPakFileMounted2Time == 0.000157
+[2022.07.06-10.48.59:758][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.07.06-10.48.59:758][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:758][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.07.06-10.48.59:758][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:758][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2022.07.06-10.48.59:758][  0]LogPakFile: OnPakFileMounted2Time == 0.000202
+[2022.07.06-10.48.59:774][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.07.06-10.48.59:774][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:774][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.07.06-10.48.59:774][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:774][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2022.07.06-10.48.59:775][  0]LogPakFile: OnPakFileMounted2Time == 0.000186
+[2022.07.06-10.48.59:792][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.07.06-10.48.59:792][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:792][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.07.06-10.48.59:792][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:792][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2022.07.06-10.48.59:792][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
+[2022.07.06-10.48.59:808][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.07.06-10.48.59:808][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:808][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.07.06-10.48.59:808][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:808][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2022.07.06-10.48.59:808][  0]LogPakFile: OnPakFileMounted2Time == 0.000118
+[2022.07.06-10.48.59:825][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.07.06-10.48.59:825][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:825][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.07.06-10.48.59:825][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:825][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2022.07.06-10.48.59:825][  0]LogPakFile: OnPakFileMounted2Time == 0.000206
+[2022.07.06-10.48.59:844][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.07.06-10.48.59:844][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:844][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.07.06-10.48.59:844][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:844][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2022.07.06-10.48.59:845][  0]LogPakFile: OnPakFileMounted2Time == 0.000187
+[2022.07.06-10.48.59:865][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.07.06-10.48.59:865][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:865][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.07.06-10.48.59:865][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:865][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2022.07.06-10.48.59:865][  0]LogPakFile: OnPakFileMounted2Time == 0.000112
+[2022.07.06-10.48.59:881][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.07.06-10.48.59:881][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:881][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.07.06-10.48.59:881][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:881][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2022.07.06-10.48.59:881][  0]LogPakFile: OnPakFileMounted2Time == 0.000141
+[2022.07.06-10.48.59:897][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.07.06-10.48.59:897][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:897][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.07.06-10.48.59:897][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:897][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2022.07.06-10.48.59:897][  0]LogPakFile: OnPakFileMounted2Time == 0.000087
+[2022.07.06-10.48.59:915][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.07.06-10.48.59:915][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:915][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.07.06-10.48.59:915][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:915][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2022.07.06-10.48.59:915][  0]LogPakFile: OnPakFileMounted2Time == 0.000082
+[2022.07.06-10.48.59:930][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.07.06-10.48.59:930][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:930][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.07.06-10.48.59:930][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:930][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2022.07.06-10.48.59:930][  0]LogPakFile: OnPakFileMounted2Time == 0.000081
+[2022.07.06-10.48.59:942][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.07.06-10.48.59:942][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:942][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.07.06-10.48.59:942][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:942][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2022.07.06-10.48.59:942][  0]LogPakFile: OnPakFileMounted2Time == 0.000074
+[2022.07.06-10.48.59:953][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.07.06-10.48.59:953][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.07.06-10.48.59:953][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.07.06-10.48.59:953][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.07.06-10.48.59:954][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2022.07.06-10.48.59:954][  0]LogPakFile: OnPakFileMounted2Time == 0.000084
+[2022.07.06-10.49.00:403][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.07.06-10.49.00:428][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2022.07.06-10.49.00:925][  0]LogSlate: Took 0.012461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.07.06-10.49.00:950][  0]LogSlate: Took 0.017944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.07.06-10.49.00:990][  0]LogSlate: Took 0.034516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.07.06-10.49.01:078][  0]LogSlate: Took 0.051158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.07.06-10.49.01:582][  0]LogRenderer: Reallocating scene render targets to support 964x424 Format 10 NumSamples 1 (Frame:1).
+[2022.07.06-10.49.01:971][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.07.06-10.49.01:972][  0]LogInput: Warning: Action SetDestination uses invalid key OculusGo_Left_Trigger_Click.
+[2022.07.06-10.49.01:972][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Back_Click.
+[2022.07.06-10.49.01:972][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2022.07.06-10.49.01:972][  0]LogLoad: (Engine Initialization) Total time: 69.71 seconds
+[2022.07.06-10.49.01:972][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.07.06-10.49.02:139][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.07.06-10.49.02:301][  1]LogAssetRegistry: Asset discovery search completed in 45.1602 seconds
+[2022.07.06-10.49.02:396][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2022.07.06-10.51.48:865][643]LogSlate: Took 0.017442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.06-10.58.14:610][762]Candidate modules for hot reload:
+[2022.07.06-10.58.14:610][762]  TacticalRPG
+[2022.07.06-10.58.14:611][762]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TacticalRPG,6096 TacticalRPGEditor Win64 Development -Project="C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject" "C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject"  -IgnoreJunk]
+[2022.07.06-10.58.14:619][762]Warning: Starting HotReload took  0.1s.
+[2022.07.06-10.59.23:034][340]CompilerResultsLog: New page: Compilation - 6 Jul 2022, 12:59:22
+[2022.07.06-10.59.23:035][340]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame).
+[2022.07.06-10.59.23:035][340]CompilerResultsLog: Parsing headers for TacticalRPGEditor
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\TacticalRPG.uproject" "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\TacticalRPGEditor\Development\TacticalRPGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\LukeR\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.06-10.59.23:035][340]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.07.06-10.59.23:035][340]CompilerResultsLog: Reflection code generated for TacticalRPGEditor in 35.7962416 seconds
+[2022.07.06-10.59.23:035][340]CompilerResultsLog: Building TacticalRPGEditor...
+[2022.07.06-10.59.23:035][340]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.06-10.59.23:035][340]CompilerResultsLog: Building 7 actions with 12 processes...
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:   [1/7] CharacterController.cpp
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C2653: 'ACharacterController': is not a class or namespace name
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C3646: 'GetNextState': unknown override specifier
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C2059: syntax error: '('
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(25) : error C2653: 'ACharacterController': is not a class or namespace name
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(25) : error C3646: 'm_nextState': unknown override specifier
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(25) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(14): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(52): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(41): warning C4263: 'void ACharacterController::ChangeState(ACharacterController::CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:035][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(58): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharacterController.cpp(49) : error C2039: 'GetNextState': is not a member of 'CharControllerState'
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(15): note: see declaration of 'CharControllerState'
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   [2/7] CharControllerState.cpp
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(11) : error C2504: 'CharControllerState': base class undefined
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(16) : error C3668: 'CharControllerIdle::OnEnter': method with override specifier 'override' did not override any base class methods
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(17) : error C3668: 'CharControllerIdle::Update': method with override specifier 'override' did not override any base class methods
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(18) : error C3668: 'CharControllerIdle::OnExit': method with override specifier 'override' did not override any base class methods
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(52): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(41): warning C4263: 'void ACharacterController::ChangeState(ACharacterController::CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(58): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(14): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   [3/7] CharacterController.gen.cpp
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C2653: 'ACharacterController': is not a class or namespace name
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C3646: 'GetNextState': unknown override specifier
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C2059: syntax error: '('
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(21) : error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(25) : error C2653: 'ACharacterController': is not a class or namespace name
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(25) : error C3646: 'm_nextState': unknown override specifier
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(25) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(14): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(52): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:036][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(41): warning C4263: 'void ACharacterController::ChangeState(ACharacterController::CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(58): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   [4/7] CharControllerIdle.cpp
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(52): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(41): warning C4263: 'void ACharacterController::ChangeState(ACharacterController::CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(58): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(14): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:037][340]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-10.59.23:037][340]LogMainFrame: MainFrame: Module compiling took 68.517 seconds
+[2022.07.06-10.59.23:063][340]Warning: HotReload failed, recompile failed
+[2022.07.06-11.00.01:944][214]LogSlate: Window 'Message Log' being destroyed
+[2022.07.06-11.02.58:963][658]Candidate modules for hot reload:
+[2022.07.06-11.02.58:963][658]  TacticalRPG
+[2022.07.06-11.02.58:963][658]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TacticalRPG,7315 TacticalRPGEditor Win64 Development -Project="C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject" "C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject"  -IgnoreJunk]
+[2022.07.06-11.02.58:972][658]Warning: Starting HotReload took  0.1s.
+[2022.07.06-11.03.35:597][388]CompilerResultsLog: New page: Compilation - 6 Jul 2022, 13:03:35
+[2022.07.06-11.03.35:598][388]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame).
+[2022.07.06-11.03.35:598][388]CompilerResultsLog: Parsing headers for TacticalRPGEditor
+[2022.07.06-11.03.35:598][388]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\TacticalRPG.uproject" "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\TacticalRPGEditor\Development\TacticalRPGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\LukeR\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.06-11.03.35:598][388]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.07.06-11.03.35:598][388]CompilerResultsLog: Reflection code generated for TacticalRPGEditor in 10.0592283 seconds
+[2022.07.06-11.03.35:598][388]CompilerResultsLog: Building TacticalRPGEditor...
+[2022.07.06-11.03.35:598][388]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.06-11.03.35:598][388]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.07.06-11.03.35:598][388]CompilerResultsLog:   [1/8] CharControllerIdle.cpp
+[2022.07.06-11.03.35:598][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.03.35:598][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.03.35:599][388]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(24) : error C2653: 'ACharacterController': is not a class or namespace name
+[2022.07.06-11.03.35:599][388]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(24) : error C2039: 'Default': is not a member of 'CharacterStates'
+[2022.07.06-11.03.35:599][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(10): note: see declaration of 'CharacterStates'
+[2022.07.06-11.03.35:599][388]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(24) : error C2065: 'Default': undeclared identifier
+[2022.07.06-11.03.35:600][388]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(40) : error C2653: 'ACharacterController': is not a class or namespace name
+[2022.07.06-11.03.35:600][388]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(40) : error C2039: 'Idle': is not a member of 'CharacterStates'
+[2022.07.06-11.03.35:600][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(10): note: see declaration of 'CharacterStates'
+[2022.07.06-11.03.35:600][388]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(40) : error C2065: 'Idle': undeclared identifier
+[2022.07.06-11.03.35:600][388]CompilerResultsLog:   [2/8] CharacterStates.cpp
+[2022.07.06-11.03.35:600][388]CompilerResultsLog:   [3/8] CharControllerState.cpp
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   [4/8] CharacterController.cpp
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(48): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(37): warning C4263: 'void ACharacterController::ChangeState(CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(54): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharacterController.cpp(40) : error C2440: 'type cast': cannot convert from 'CharacterStates' to 'int'
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharacterController.cpp(40): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   [5/8] CharacterController.gen.cpp
+[2022.07.06-11.03.35:601][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.03.35:602][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.03.35:602][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(48): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-11.03.35:602][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(37): warning C4263: 'void ACharacterController::ChangeState(CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-11.03.35:602][388]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(54): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-11.03.35:602][388]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-11.03.35:602][388]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-11.03.35:602][388]LogMainFrame: MainFrame: Module compiling took 36.688 seconds
+[2022.07.06-11.03.35:602][388]Warning: HotReload failed, recompile failed
+[2022.07.06-11.04.19:898][ 62]Candidate modules for hot reload:
+[2022.07.06-11.04.19:898][ 62]  TacticalRPG
+[2022.07.06-11.04.19:899][ 62]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TacticalRPG,9104 TacticalRPGEditor Win64 Development -Project="C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject" "C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject"  -IgnoreJunk]
+[2022.07.06-11.04.19:905][ 62]Warning: Starting HotReload took  0.1s.
+[2022.07.06-11.04.24:930][161]CompilerResultsLog: New page: Compilation - 6 Jul 2022, 13:04:24
+[2022.07.06-11.04.24:931][161]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame).
+[2022.07.06-11.04.24:931][161]CompilerResultsLog: Building TacticalRPGEditor...
+[2022.07.06-11.04.24:931][161]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.06-11.04.24:931][161]CompilerResultsLog: Building 5 actions with 12 processes...
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:   [1/5] CharControllerIdle.cpp
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(24) : error C2039: 'Default': is not a member of 'CharacterStates'
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(10): note: see declaration of 'CharacterStates'
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(24) : error C2065: 'Default': undeclared identifier
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(40) : error C2039: 'Idle': is not a member of 'CharacterStates'
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(10): note: see declaration of 'CharacterStates'
+[2022.07.06-11.04.24:931][161]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharControllerIdle.cpp(40) : error C2065: 'Idle': undeclared identifier
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   [2/5] CharacterController.cpp
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(48): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(37): warning C4263: 'void ACharacterController::ChangeState(CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(54): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharacterController.cpp(40) : error C2440: 'type cast': cannot convert from 'CharacterStates' to 'int'
+[2022.07.06-11.04.24:932][161]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Private\CharacterController.cpp(40): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2022.07.06-11.04.24:932][161]LogMainFrame: MainFrame: Module compiling took 5.087 seconds
+[2022.07.06-11.04.24:932][161]Warning: HotReload failed, recompile failed
+[2022.07.06-11.05.49:342][732]Candidate modules for hot reload:
+[2022.07.06-11.05.49:343][732]  TacticalRPG
+[2022.07.06-11.05.49:343][732]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TacticalRPG,6702 TacticalRPGEditor Win64 Development -Project="C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject" "C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject"  -IgnoreJunk]
+[2022.07.06-11.05.49:351][732]Warning: Starting HotReload took  0.1s.
+[2022.07.06-11.06.02:731][998]CompilerResultsLog: New page: Compilation - 6 Jul 2022, 13:06:02
+[2022.07.06-11.06.02:731][998]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame).
+[2022.07.06-11.06.02:731][998]CompilerResultsLog: Building TacticalRPGEditor...
+[2022.07.06-11.06.02:731][998]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.06-11.06.02:731][998]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.07.06-11.06.02:731][998]CompilerResultsLog:   [1/8] CharacterController.cpp
+[2022.07.06-11.06.02:731][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(3) : error C2011: 'CharacterStates': 'unsigned enum' type redefinition
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(3): note: see declaration of 'CharacterStates'
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(48): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(37): warning C4263: 'void ACharacterController::ChangeState(CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(54): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   [2/8] CharacterController.gen.cpp
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:    C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(3) : error C2011: 'CharacterStates': 'unsigned enum' type redefinition
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterStates.h(3): note: see declaration of 'CharacterStates'
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(48): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(37): warning C4263: 'void ACharacterController::ChangeState(CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-11.06.02:732][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(54): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   [3/8] CharacterStates.cpp
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   [4/8] CharControllerState.cpp
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   [5/8] CharControllerIdle.cpp
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.06.02:733][998]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.06.02:733][998]LogMainFrame: MainFrame: Module compiling took 13.438 seconds
+[2022.07.06-11.06.02:734][998]Warning: HotReload failed, recompile failed
+[2022.07.06-11.07.32:420][532]Candidate modules for hot reload:
+[2022.07.06-11.07.32:420][532]  TacticalRPG
+[2022.07.06-11.07.32:421][532]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TacticalRPG,9736 TacticalRPGEditor Win64 Development -Project="C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject" "C:/Users/LukeR/OneDrive/Documents/GitHub/TacticalRPGGame/TacticalRPG/TacticalRPG.uproject"  -IgnoreJunk]
+[2022.07.06-11.07.32:428][532]Warning: Starting HotReload took  0.1s.
+[2022.07.06-11.08.04:967][ 10]CompilerResultsLog: New page: Compilation - 6 Jul 2022, 13:08:04
+[2022.07.06-11.08.04:967][ 10]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame).
+[2022.07.06-11.08.04:967][ 10]CompilerResultsLog: Invalidating makefile for TacticalRPGEditor (UHT files changed)
+[2022.07.06-11.08.04:967][ 10]CompilerResultsLog: Parsing headers for TacticalRPGEditor
+[2022.07.06-11.08.04:968][ 10]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\TacticalRPG.uproject" "C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\TacticalRPGEditor\Development\TacticalRPGEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\LukeR\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.06-11.08.04:968][ 10]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog: Reflection code generated for TacticalRPGEditor in 9.6828839 seconds
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog: Building TacticalRPGEditor...
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog: Building 9 actions with 12 processes...
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   [1/9] CharControllerState.cpp
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   [2/9] CharControllerIdle.cpp
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   [3/9] TacticalRPG.init.gen.cpp
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   [4/9] CharacterStates.gen.cpp
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   [5/9] CharacterController.cpp
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(48): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(37): warning C4263: 'void ACharacterController::ChangeState(CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharacterController.h(54): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   [6/9] CharacterController.gen.cpp
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerState.h(15): warning C4265: 'CharControllerState': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG\Public\CharControllerIdle.h(14): warning C4265: 'CharControllerIdle': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(48): warning C4263: 'void ACharacterController::ChangeState(CharControllerState *)': member function does not override any base class virtual member function
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(37): warning C4263: 'void ACharacterController::ChangeState(CharacterStates)': member function does not override any base class virtual member function
+[2022.07.06-11.08.04:969][ 10]CompilerResultsLog:   C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Source\TacticalRPG/Public/CharacterController.h(54): warning C4264: 'void APlayerController::ChangeState(FName)': no override available for virtual member function from base 'APlayerController'; function is hidden
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(1616): note: see declaration of 'APlayerController::ChangeState'
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Player.h(14): note: see declaration of 'APlayerController'
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog:   [7/9] UE4Editor-TacticalRPG-9736.lib
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog:      Creating library C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\UE4Editor-TacticalRPG-9736.lib and object C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\UE4Editor-TacticalRPG-9736.exp
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog:   [8/9] UE4Editor-TacticalRPG-9736.dll
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog:      Creating library C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\UE4Editor-TacticalRPG-9736.suppressed.lib and object C:\Users\LukeR\OneDrive\Documents\GitHub\TacticalRPGGame\TacticalRPG\Intermediate\Build\Win64\UE4Editor\Development\TacticalRPG\UE4Editor-TacticalRPG-9736.suppressed.exp
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog:   [9/9] TacticalRPGEditor.target
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog: Total time in Parallel executor: 13.50 seconds
+[2022.07.06-11.08.04:970][ 10]CompilerResultsLog: Total execution time: 32.19 seconds
+[2022.07.06-11.08.04:970][ 10]LogMainFrame: MainFrame: Module compiling took 32.599 seconds
+[2022.07.06-11.08.05:387][ 10]LogClass: Could not find existing type CharacterStates for HotReload. Assuming new
+[2022.07.06-11.08.05:404][ 10]LogClass: VitalStats HotReload.
+[2022.07.06-11.08.05:478][ 10]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TacticalRPG' in 0.0068 seconds. Added 10 classes and 3 folders.
+[2022.07.06-11.08.05:650][ 10]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.07.06-11.08.06:121][ 10]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0639 seconds. Added 3832 classes and 931 folders.
+[2022.07.06-11.08.06:125][ 10]Display: HotReload took 33.8s.
+[2022.07.06-11.08.10:651][111]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.06-11.08.10:816][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.06-11.08.10:819][111]PIE: New page: PIE session: TopDownExampleMap (6 Jul 2022, 13:08:10)
+[2022.07.06-11.08.10:884][111]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.07.06-11.08.10:901][111]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.07.06-11.08.10:906][111]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.06-11.08.10:987][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077850s)
+[2022.07.06-11.08.10:992][111]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.07.06-11.08.10:998][111]LogPlayLevel: PIE: World Init took: (0.010432s)
+[2022.07.06-11.08.10:998][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.092556s)
+[2022.07.06-11.08.11:036][111]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.07.06-11.08.11:317][111]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.07.06-11.08.11:319][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.06-11.08.11:319][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.06-11.08.11:320][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.06-11.08.11:320][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.06-11.08.11:320][111]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.06-11.08.11:320][111]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.06-11.08.11:320][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.06-11.08.11:320][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.06-11.08.11:326][111]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.06-11.08.11:326][111]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.06-11.08.11:326][111]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.06-11.08.11:327][111]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.06-11.08.11:350][111]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.06-11.08.11:350][111]LogAudioMixer: Display: 1: FrontRight
+[2022.07.06-11.08.11:432][111]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.07.06-11.08.11:440][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.06-11.08.11:441][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.06-11.08.11:442][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.06-11.08.11:452][111]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.06-11.08.11:452][111]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.06-11.08.11:453][111]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.07.06-11.08.11:458][111]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.06-11.08.11:458][111]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.06-11.08.11:458][111]LogInit: FAudioDevice initialized.
+[2022.07.06-11.08.11:459][111]LogAudio: Display: Audio Device (ID: 2) registered with world 'TopDownExampleMap'.
+[2022.07.06-11.08.11:569][111]LogLoad: Game class is 'GameManager_C'
+[2022.07.06-11.08.11:621][111]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.07.06-12.08.11
+[2022.07.06-11.08.11:631][111]LogWorld: Bringing up level for play took: 0.027673
+[2022.07.06-11.08.11:637][111]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2022.07.06-11.08.11:825][111]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2022.07.06-11.08.11:887][111]PIE: Server logged in
+[2022.07.06-11.08.11:894][111]PIE: Play in editor total start time 1.196 seconds.
