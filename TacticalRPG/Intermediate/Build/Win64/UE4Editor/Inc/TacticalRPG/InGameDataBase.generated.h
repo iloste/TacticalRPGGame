@@ -11,6 +11,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPopupInfo;
 class UPopupable;
 class UAbility;
+struct FVector2D;
 struct FVector;
 class ATRPGCharacter;
 #ifdef TACTICALRPG_InGameDataBase_generated_h
@@ -52,6 +53,9 @@ static inline void FUpdatedCurrentCharacter_DelegateWrapper(const FMulticastScri
 	DECLARE_FUNCTION(execGetCurrentTurnOrder); \
 	DECLARE_FUNCTION(execSetCurrentCharacter); \
 	DECLARE_FUNCTION(execGetCurrentCharacter); \
+	DECLARE_FUNCTION(execGetCharacter); \
+	DECLARE_FUNCTION(execSetAllCharacters); \
+	DECLARE_FUNCTION(execGetAllCharacters); \
 	DECLARE_FUNCTION(execPressedButton);
 
 
@@ -67,6 +71,9 @@ static inline void FUpdatedCurrentCharacter_DelegateWrapper(const FMulticastScri
 	DECLARE_FUNCTION(execGetCurrentTurnOrder); \
 	DECLARE_FUNCTION(execSetCurrentCharacter); \
 	DECLARE_FUNCTION(execGetCurrentCharacter); \
+	DECLARE_FUNCTION(execGetCharacter); \
+	DECLARE_FUNCTION(execSetAllCharacters); \
+	DECLARE_FUNCTION(execGetAllCharacters); \
 	DECLARE_FUNCTION(execPressedButton);
 
 

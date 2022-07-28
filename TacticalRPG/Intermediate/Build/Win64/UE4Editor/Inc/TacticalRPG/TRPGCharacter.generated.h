@@ -21,6 +21,7 @@ class UCharacterStats;
  \
 	DECLARE_FUNCTION(execGetProfileImage); \
 	DECLARE_FUNCTION(execGetName); \
+	DECLARE_FUNCTION(execSetID); \
 	DECLARE_FUNCTION(execID); \
 	DECLARE_FUNCTION(execGetHealthSystem); \
 	DECLARE_FUNCTION(execgetStats);
@@ -30,6 +31,7 @@ class UCharacterStats;
  \
 	DECLARE_FUNCTION(execGetProfileImage); \
 	DECLARE_FUNCTION(execGetName); \
+	DECLARE_FUNCTION(execSetID); \
 	DECLARE_FUNCTION(execID); \
 	DECLARE_FUNCTION(execGetHealthSystem); \
 	DECLARE_FUNCTION(execgetStats);

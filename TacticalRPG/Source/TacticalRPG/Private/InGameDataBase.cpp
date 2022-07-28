@@ -60,7 +60,7 @@ void UInGameDataBase::RemoveAbilityPopup() {
 
 }
 
-void UInGameDataBase::AddPopup(UPopupable* owner, UAbility* ability, FVector pos)
+void UInGameDataBase::AddPopup(UPopupable* owner, UAbility* ability, FVector2D pos)
 {
 	UPopupInfo* popup = NewObject<UPopupInfo>();
 	popup->m_owner = owner;

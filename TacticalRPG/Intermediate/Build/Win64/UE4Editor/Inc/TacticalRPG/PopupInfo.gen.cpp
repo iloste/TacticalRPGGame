@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodePopupInfo() {}
 	UPackage* Z_Construct_UPackage__Script_TacticalRPG();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UPopupable_NoRegister();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UAbility_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 	UMG_API UClass* Z_Construct_UClass_UWidget_NoRegister();
 // End Cross Module References
 	void UPopupInfo::StaticRegisterNativesUPopupInfo()
@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodePopupInfo() {}
 		{ "ModuleRelativePath", "Public/PopupInfo.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPopupInfo_Statics::NewProp_m_popupAbilityPos = { "m_popupAbilityPos", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPopupInfo, m_popupAbilityPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UPopupInfo_Statics::NewProp_m_popupAbilityPos_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPopupInfo_Statics::NewProp_m_popupAbilityPos_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPopupInfo_Statics::NewProp_m_popupAbilityPos = { "m_popupAbilityPos", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPopupInfo, m_popupAbilityPos), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_UPopupInfo_Statics::NewProp_m_popupAbilityPos_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPopupInfo_Statics::NewProp_m_popupAbilityPos_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPopupInfo_Statics::NewProp_m_popup_MetaData[] = {
 		{ "Category", "PopupInfo" },
@@ -133,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodePopupInfo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPopupInfo, 3149548325);
+	IMPLEMENT_CLASS(UPopupInfo, 2623676204);
 	template<> TACTICALRPG_API UClass* StaticClass<UPopupInfo>()
 	{
 		return UPopupInfo::StaticClass();

@@ -22,9 +22,10 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UPopupable_NoRegister();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UAbility_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 	TACTICALRPG_API UClass* Z_Construct_UClass_ATRPGCharacter_NoRegister();
 	TACTICALRPG_API UClass* Z_Construct_UClass_UPopupInfo_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_TacticalRPG_UpdatedAbilityPopup__DelegateSignature_Statics
 	{
@@ -110,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 	{
 		P_GET_OBJECT(UPopupable,Z_Param_owner);
 		P_GET_OBJECT(UAbility,Z_Param_ability);
-		P_GET_STRUCT(FVector,Z_Param_pos);
+		P_GET_STRUCT(FVector2D,Z_Param_pos);
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->AddPopup(Z_Param_owner,Z_Param_ability,Z_Param_pos);
@@ -168,6 +169,29 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		*(ATRPGCharacter**)Z_Param__Result=P_THIS->GetCurrentCharacter();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UInGameDataBase::execGetCharacter)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_ID);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(ATRPGCharacter**)Z_Param__Result=P_THIS->GetCharacter(Z_Param_ID);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UInGameDataBase::execSetAllCharacters)
+	{
+		P_GET_TARRAY(ATRPGCharacter*,Z_Param_allCharacters);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetAllCharacters(Z_Param_allCharacters);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UInGameDataBase::execGetAllCharacters)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(TArray<ATRPGCharacter*>*)Z_Param__Result=P_THIS->GetAllCharacters();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UInGameDataBase::execPressedButton)
 	{
 		P_GET_UBOOL(Z_Param_pressed);
@@ -181,6 +205,8 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		UClass* Class = UInGameDataBase::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddPopup", &UInGameDataBase::execAddPopup },
+			{ "GetAllCharacters", &UInGameDataBase::execGetAllCharacters },
+			{ "GetCharacter", &UInGameDataBase::execGetCharacter },
 			{ "GetCurrentCharacter", &UInGameDataBase::execGetCurrentCharacter },
 			{ "GetCurrentTurnOrder", &UInGameDataBase::execGetCurrentTurnOrder },
 			{ "GetNextPopup", &UInGameDataBase::execGetNextPopup },
@@ -190,6 +216,7 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 			{ "RemoveAbilityPopup", &UInGameDataBase::execRemoveAbilityPopup },
 			{ "RemoveCurrentPopupFromDatabase", &UInGameDataBase::execRemoveCurrentPopupFromDatabase },
 			{ "SetAbilityPopup", &UInGameDataBase::execSetAbilityPopup },
+			{ "SetAllCharacters", &UInGameDataBase::execSetAllCharacters },
 			{ "SetCurrentCharacter", &UInGameDataBase::execSetCurrentCharacter },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -200,7 +227,7 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		{
 			UPopupable* owner;
 			UAbility* ability;
-			FVector pos;
+			FVector2D pos;
 		};
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_owner_MetaData[];
@@ -221,7 +248,7 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_owner = { "owner", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventAddPopup_Parms, owner), Z_Construct_UClass_UPopupable_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_owner_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_owner_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_ability = { "ability", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventAddPopup_Parms, ability), Z_Construct_UClass_UAbility_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_pos = { "pos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventAddPopup_Parms, pos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_pos = { "pos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventAddPopup_Parms, pos), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_owner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::NewProp_ability,
@@ -239,6 +266,77 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UInGameDataBase_AddPopup_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics
+	{
+		struct InGameDataBase_eventGetAllCharacters_Parms
+		{
+			TArray<ATRPGCharacter*> ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ATRPGCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventGetAllCharacters_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::NewProp_ReturnValue_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/InGameDataBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInGameDataBase, nullptr, "GetAllCharacters", nullptr, nullptr, sizeof(InGameDataBase_eventGetAllCharacters_Parms), Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UInGameDataBase_GetAllCharacters()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UInGameDataBase_GetAllCharacters_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics
+	{
+		struct InGameDataBase_eventGetCharacter_Parms
+		{
+			int32 ID;
+			ATRPGCharacter* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ID;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::NewProp_ID = { "ID", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventGetCharacter_Parms, ID), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventGetCharacter_Parms, ReturnValue), Z_Construct_UClass_ATRPGCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::NewProp_ID,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/InGameDataBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInGameDataBase, nullptr, "GetCharacter", nullptr, nullptr, sizeof(InGameDataBase_eventGetCharacter_Parms), Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UInGameDataBase_GetCharacter()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UInGameDataBase_GetCharacter_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -522,6 +620,41 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics
+	{
+		struct InGameDataBase_eventSetAllCharacters_Parms
+		{
+			TArray<ATRPGCharacter*> allCharacters;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_allCharacters_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_allCharacters;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::NewProp_allCharacters_Inner = { "allCharacters", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ATRPGCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::NewProp_allCharacters = { "allCharacters", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(InGameDataBase_eventSetAllCharacters_Parms, allCharacters), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::NewProp_allCharacters_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::NewProp_allCharacters,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/InGameDataBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInGameDataBase, nullptr, "SetAllCharacters", nullptr, nullptr, sizeof(InGameDataBase_eventSetAllCharacters_Parms), Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UInGameDataBase_SetAllCharacters()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UInGameDataBase_SetAllCharacters_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UInGameDataBase_SetCurrentCharacter_Statics
 	{
 		struct InGameDataBase_eventSetCurrentCharacter_Parms
@@ -591,7 +724,9 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TacticalRPG,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UInGameDataBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UInGameDataBase_AddPopup, "AddPopup" }, // 3599769129
+		{ &Z_Construct_UFunction_UInGameDataBase_AddPopup, "AddPopup" }, // 137246558
+		{ &Z_Construct_UFunction_UInGameDataBase_GetAllCharacters, "GetAllCharacters" }, // 271216062
+		{ &Z_Construct_UFunction_UInGameDataBase_GetCharacter, "GetCharacter" }, // 1187927579
 		{ &Z_Construct_UFunction_UInGameDataBase_GetCurrentCharacter, "GetCurrentCharacter" }, // 2330389191
 		{ &Z_Construct_UFunction_UInGameDataBase_GetCurrentTurnOrder, "GetCurrentTurnOrder" }, // 1785909725
 		{ &Z_Construct_UFunction_UInGameDataBase_GetNextPopup, "GetNextPopup" }, // 2904285748
@@ -601,6 +736,7 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		{ &Z_Construct_UFunction_UInGameDataBase_RemoveAbilityPopup, "RemoveAbilityPopup" }, // 2642359561
 		{ &Z_Construct_UFunction_UInGameDataBase_RemoveCurrentPopupFromDatabase, "RemoveCurrentPopupFromDatabase" }, // 198089333
 		{ &Z_Construct_UFunction_UInGameDataBase_SetAbilityPopup, "SetAbilityPopup" }, // 319572466
+		{ &Z_Construct_UFunction_UInGameDataBase_SetAllCharacters, "SetAllCharacters" }, // 1631254728
 		{ &Z_Construct_UFunction_UInGameDataBase_SetCurrentCharacter, "SetCurrentCharacter" }, // 472253033
 	};
 #if WITH_METADATA
@@ -673,7 +809,7 @@ void EmptyLinkFunctionForGeneratedCodeInGameDataBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInGameDataBase, 3148918834);
+	IMPLEMENT_CLASS(UInGameDataBase, 2490035071);
 	template<> TACTICALRPG_API UClass* StaticClass<UInGameDataBase>()
 	{
 		return UInGameDataBase::StaticClass();

@@ -33,7 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeTacticalRPG_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x7EDF05F8,
+				0xA3C2AD2F,
 				0xCA503606,
 				METADATA_PARAMS(nullptr, 0)
 			};

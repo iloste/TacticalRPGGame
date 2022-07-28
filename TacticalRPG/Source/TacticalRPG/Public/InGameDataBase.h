@@ -36,6 +36,17 @@ public:
 		void PressedButton(bool pressed) { buttonPressed = pressed; }
 
 
+
+	UFUNCTION(BlueprintCallable)
+		TArray<ATRPGCharacter*> GetAllCharacters() { return m_allCharacters; }
+	
+	UFUNCTION(BlueprintCallable)
+		void SetAllCharacters(TArray<ATRPGCharacter*> allCharacters) { m_allCharacters = allCharacters; }
+	
+	UFUNCTION(BlueprintCallable)
+		ATRPGCharacter* GetCharacter(int ID) { return m_allCharacters[ID]; }
+
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -64,7 +75,7 @@ public:
 		FVector GetPopupAbilityPos() { return m_popupAbilityPos; }
 
 	UFUNCTION(BlueprintCallable)
-		void AddPopup(UPopupable* owner, UAbility* ability, FVector pos);
+		void AddPopup(UPopupable* owner, UAbility* ability, FVector2D pos);
 
 	UFUNCTION(BlueprintCallable)
 		UPopupInfo* GetNextPopup();
@@ -81,5 +92,7 @@ private:
 
 	// To do: When removing a popup, make sure it is destroyed and doesn't lead to a memory leak.
 	TArray<UPopupInfo*> m_popups;
-	
+
+	TArray<ATRPGCharacter*> m_allCharacters;
+
 };

@@ -25,7 +25,7 @@ public:
 	UAbility* m_popupAbility;
 
 	UPROPERTY(BlueprintReadWrite)
-	FVector m_popupAbilityPos;
+	FVector2D m_popupAbilityPos;
 
 	UPROPERTY(BlueprintReadWrite)
 	UWidget* m_popup;

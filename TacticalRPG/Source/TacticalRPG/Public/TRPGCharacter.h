@@ -25,7 +25,7 @@ protected:
 	UCharacterStats* m_stats;
 	UHealthSystem* m_healthSystem;
 	static int m_nextID;
-	int m_ID{};
+	int m_ID{-1};
 
 	UPROPERTY( EditAnywhere)
 		FString m_name;
@@ -47,6 +47,8 @@ public:
 	UAbilities* m_abilities;
 	UFUNCTION(BlueprintCallable)
 		int ID() { return m_ID; }
+	UFUNCTION(BlueprintCallable)
+		void SetID(int newID);
 
 	UFUNCTION(BlueprintCallable)
 		FString GetName();

@@ -35,6 +35,14 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 		*(FString*)Z_Param__Result=P_THIS->GetName();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ATRPGCharacter::execSetID)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_newID);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetID(Z_Param_newID);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATRPGCharacter::execID)
 	{
 		P_FINISH;
@@ -65,6 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 			{ "GetProfileImage", &ATRPGCharacter::execGetProfileImage },
 			{ "getStats", &ATRPGCharacter::execgetStats },
 			{ "ID", &ATRPGCharacter::execID },
+			{ "SetID", &ATRPGCharacter::execSetID },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -244,6 +253,38 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATRPGCharacter_SetID_Statics
+	{
+		struct TRPGCharacter_eventSetID_Parms
+		{
+			int32 newID;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_newID;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::NewProp_newID = { "newID", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TRPGCharacter_eventSetID_Parms, newID), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::NewProp_newID,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/TRPGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATRPGCharacter, nullptr, "SetID", nullptr, nullptr, sizeof(TRPGCharacter_eventSetID_Parms), Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATRPGCharacter_SetID()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATRPGCharacter_SetID_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ATRPGCharacter_NoRegister()
 	{
 		return ATRPGCharacter::StaticClass();
@@ -277,6 +318,7 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 		{ &Z_Construct_UFunction_ATRPGCharacter_GetProfileImage, "GetProfileImage" }, // 718516567
 		{ &Z_Construct_UFunction_ATRPGCharacter_getStats, "getStats" }, // 2990874970
 		{ &Z_Construct_UFunction_ATRPGCharacter_ID, "ID" }, // 3390423188
+		{ &Z_Construct_UFunction_ATRPGCharacter_SetID, "SetID" }, // 4082842967
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATRPGCharacter_Statics::Class_MetaDataParams[] = {
@@ -330,7 +372,7 @@ void EmptyLinkFunctionForGeneratedCodeTRPGCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATRPGCharacter, 3755926214);
+	IMPLEMENT_CLASS(ATRPGCharacter, 2946802467);
 	template<> TACTICALRPG_API UClass* StaticClass<ATRPGCharacter>()
 	{
 		return ATRPGCharacter::StaticClass();
